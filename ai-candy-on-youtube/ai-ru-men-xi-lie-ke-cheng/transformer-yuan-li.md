@@ -35,8 +35,6 @@ Encoder 的结构是一个**自注意力机制**加上一个**前馈神经网络
 
 <figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (13).png" alt=""><figcaption><p>计算图</p></figcaption></figure>
-
 
 
 **多头注意力机制**，顾名思义，包含多个自注意力机制，然后将多个自注意力机制的输出进行拼接，最后通过全连接层得到输出。
@@ -49,7 +47,11 @@ Encoder 的结构是一个**自注意力机制**加上一个**前馈神经网络
 
 然后按照上节描述的那样，得到多个Z。
 
+
+
 <figure><img src="../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../../.gitbook/assets/image (13).png" alt=""><figcaption><p>计算图</p></figcaption></figure>
 
 <figure><img src="../../.gitbook/assets/image (14).png" alt=""><figcaption></figcaption></figure>
 
