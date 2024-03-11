@@ -4,7 +4,7 @@ description: <<Attention Is All You Need>> paper study
 
 # Transformer 原理
 
-Trasnformer 可以理解为是基于自注意力机制self-attention的一个深度学习模型。\
+Trasnformer 可以理解为是基于自注意力机制 self-attention的一个深度学习模型。\
 Trasnformer 包含了两个主要组成：Encoder 和 Decoder。 (序列模型)
 
 * Encoder里边有6个小编码器，每一个的小编码器的输入是前一个小编码器的输出。
@@ -20,9 +20,7 @@ Encoder 的结构是一个**自注意力机制**加上一个**前馈神经网络
 
 <figure><img src="../../.gitbook/assets/self-attention-1.png" alt=""><figcaption></figcaption></figure>
 
-**前馈神经网络（feedforward neural network，FNN）**: 包含了输入层 Input layer，隐藏层 Hidden layer，和输出层 Output layer。整个网络中无反馈，信号从输入层向输出层单向传播。前馈网络是一种静态非线性映射．通过简单非线性处理单元的复合映射，可获得复杂的非线性处理能力。
 
-<figure><img src="../../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
 
 **Attention:** 将新向量内容分别与K1, K2, Kt 向量进来点积运算，得到相似度（值越大，相似度越高）。再除以根号dk。再将结果进行softmax运算，即：将分数标准化, 归一化运算。(得到大约0，小于1的数，总和为1的权重).
 
@@ -35,7 +33,7 @@ Encoder 的结构是一个**自注意力机制**加上一个**前馈神经网络
 
 <figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
 
-
+**自注意力机制**：Q, K, V 都一样，来自自己。
 
 **多头注意力机制**，顾名思义，包含多个自注意力机制，然后将多个自注意力机制的输出进行拼接，最后通过全连接层得到输出。
 
@@ -61,7 +59,7 @@ Encoder 的结构是一个**自注意力机制**加上一个**前馈神经网络
 
 最后, 再乘以一个矩阵，得到一个前馈神经网络层的输入。
 
-**总结一下：** Encoder是对输入进行编码，使用的是自注意力机制+前馈神经网络的结构。\
+**总结一下：** Encoder的架构是对输入进行编码，使用自注意力机制 + 前馈神经网络Position-Wise Feed-Forward Network (FFN) 的结构。\
 
 
 2. <mark style="color:purple;">**Decoder**</mark>

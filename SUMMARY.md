@@ -7,6 +7,7 @@
     * [人工智能，机器学习，深度学习 和神经网络的区别](ai-candy-on-youtube/ai-ru-men-xi-lie-ke-cheng/ren-gong-zhi-neng-ji-qi-xue-xi-shen-du-xue-xi-he-shen-jing-wang-luo-de-qu-bie.md)
     * [卷积神经网络（CNN）](ai-candy-on-youtube/ai-ru-men-xi-lie-ke-cheng/juan-ji-shen-jing-wang-luo-cnn.md)
     * [Transformer 原理](ai-candy-on-youtube/ai-ru-men-xi-lie-ke-cheng/transformer-yuan-li.md)
+    * [前馈神经网络 (FNN)](ai-candy-on-youtube/ai-ru-men-xi-lie-ke-cheng/qian-kui-shen-jing-wang-luo-fnn.md)
 * [✅ Programming](programming/README.md)
   * [Angular](programming/angular/README.md)
     * [Detect unused import in Typescript](programming/angular/detect-unused-import-in-typescript.md)
