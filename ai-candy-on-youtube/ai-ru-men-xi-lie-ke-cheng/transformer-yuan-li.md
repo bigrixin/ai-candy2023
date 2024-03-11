@@ -4,7 +4,7 @@ description: <<Attention Is All You Need>> paper study
 
 # Transformer 原理
 
-Trasnformer 可以理解为是一个基于Recurrent Neural Network (RNN) 模型, 增加了自注意力机制 （self-attention） 的模型。\
+Trasnformer 是基于Recurrent Neural Network (RNN) 模型, 加入自注意力机制的深度学习模型。\
 Trasnformer 包含了两个主要组成：Encoder 和 Decoder。 (序列模型)
 
 * Encoder里边有6个小编码器，每一个的小编码器的输入是前一个小编码器的输出。
