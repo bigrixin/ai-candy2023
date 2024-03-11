@@ -6,7 +6,7 @@ description: <<Attention Is All You Need>> paper study
 
 Trasnformer 是基于循环神经网络Recurrent Neural Network (**RNN**) , 加入自注意力机制 **(Self-Attention)** 的深度学习模型。
 
-* _<mark style="color:blue;">RNN是一种序列模型，可以得到序列信息。但是，RNN 只能顺序执行，不能并行计算，若数据量大，早期信息容易丢失。Attention 可以并行。</mark>_
+* _<mark style="color:blue;">RNN是一种序列模型，可以得到序列信息（前一个的顺序会传给后面）。但是，RNN 只能顺序执行，不能并行计算，若数据量大，早期信息容易丢失。Attention 可以并行。</mark>_
 * _<mark style="color:blue;">CNN可以做多通道输出，但是，对于长数据，难以建模。</mark>_
 * _<mark style="color:blue;">序列模型中比较好的是 Encoder-Decoder架构。</mark>_
 
@@ -86,6 +86,8 @@ Encoder 的结构是一个**自注意力机制(Self-Attention)** + **前馈神�
 ***
 
 **输入Embedding**: 转换输入和输出(Softmax前) token 映射到一个 512维度 的向量里。在Embedding层是将权重 乘以根号d, (d=512)
+
+**输出 Positional Encoding：**Attention的 输出是一个Value的加权和，没有时序信息。权重是Query与Key之间的距离。意味着，输入不同的顺序词，输出的值相同。为了使得Attention含有顺序信息，使用的Sin , Cos 函数（-1 \~ +1）。
 
 ***
 
