@@ -77,7 +77,9 @@ Encoder 的结构是一个**自注意力机制(Self-Attention)** + **前馈神�
 
 解码器输出本来是一个浮点型的向量。如何实现将“机器学习”翻译成“machine learing”。
 
-最后， 接上一个softmax变成一个线性层。 使用全连接神经网络，它将解码器产生的向量投影到一个更高维度的向量（logits）上。 之后的softmax层将这些分数转换为概率。选择概率最大的维度， 并对应地生成与之关联的单词作为此时间步的输出就是最终的输出啦！
+3. <mark style="color:purple;">输入，输出</mark>
+
+Decoder 后，接上一个softmax变成一个线性层。 使用全连接神经网络，它将解码器产生的向量投影到一个更高维度的向量（logits）上。 之后的softmax层将这些分数转换为概率。选择概率最大的维度， 并对应地生成与之关联的单词作为此时间步的输出就是最终的输出。
 
 但是，上述方法不含有顺序信息。**为了实现Transformer的顺序信息，**在每个输入词向量加上一个有顺序特征的向量（Positional Encoding)， 研究发现sin和cos函数能够很好的表达这种特征。
 
@@ -85,9 +87,9 @@ Encoder 的结构是一个**自注意力机制(Self-Attention)** + **前馈神�
 
 ***
 
-**输入Embedding**: 转换输入和输出(Softmax前) token 映射到一个 512维度 的向量里。在Embedding层是将权重 乘以根号d, (d=512)
+**输入 Embedding**: 转换输入和输出(Softmax前) token 映射到一个 512维度 的向量里。在Embedding层是将权重 乘以根号d, (d=512)
 
-**输出 Positional Encoding：**Attention的 输出是一个Value的加权和，没有时序信息。权重是Query与Key之间的距离。意味着，输入不同的顺序词，输出的值相同。为了使得Attention含有顺序信息，使用的Sin , Cos 函数（-1 \~ +1）。
+**输出 Positional Encoding：**Attention的输出是一个Value的加权和，没有时序信息。权重是Query与Key之间的距离。意味着，输入不同的顺序词，输出的值相同。为了使得Attention含有顺序信息，使用的Sin , Cos 函数（-1 \~ +1）。
 
 ***
 
