@@ -26,9 +26,12 @@ Encoder 的结构是一个**自注意力机制**加上一个**前馈神经网络
 
 然后，将新向量内容分别与K1，K2, Kt 向量进来点积运算，得到相似度（值越大，相似度越高）。再除以根号dk。再将结果进行softmax运算，将分数标准化, 归一化运算。(得到大约0，小于1的数，总和为1的权重).
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
-最后，将上述结果分别与V1，V2，Vt 向量进来点积运算，再将结果加起来，得到一个权重矩阵Z。
+最后，将上述结果分别与V1，V2，Vt 向量进来点积运算，再将结果加起来，得到一个权重矩阵Z。\
+
+
+<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
 
