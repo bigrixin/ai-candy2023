@@ -12,7 +12,7 @@ Trasnformer 包含了两个主要组成：Encoder 和 Decoder。 (序列模型)
 
 1. <mark style="color:purple;">**Encoder**</mark>
 
-Encoder 的结构是一个**自注意力机制**加上一个**前馈神经网络**。
+Encoder 的结构是一个**自注意力机制(Self-Attention)** + **前馈神经网络(FFN)**。
 
 **自注意力机制 self-attention**：是自己和自己计算一遍注意力(即 q, k, v 可以互换，是自身)。 输入为一个向量，再乘以三个矩阵，得到三个新的向量。如下图：输入向量为X, 乘以 WQ，WK，WV矩阵，就会分别得到新的权重矩阵 Q，K，V。
 
@@ -24,12 +24,12 @@ Encoder 的结构是一个**自注意力机制**加上一个**前馈神经网络
 
 **Attention:** 将新向量内容分别与K1, K2, Kt 向量进来点积运算，得到相似度（值越大，相似度越高）。再除以根号dk。再将结果进行softmax运算，即：将分数标准化, 归一化运算。(得到大约0，小于1的数，总和为1的权重).
 
-<figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 最后，将上述结果分别与V1，V2，Vt 向量进来点积运算，再将结果加起来，得到一个权重矩阵Z。\
 
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
 
@@ -37,7 +37,7 @@ Encoder 的结构是一个**自注意力机制**加上一个**前馈神经网络
 
 **多头注意力机制**，顾名思义，包含多个自注意力机制，然后将多个自注意力机制的输出进行拼接，最后通过全连接层得到输出。
 
-<figure><img src="../../.gitbook/assets/image (16).png" alt=""><figcaption><p>使用多头注意力是为了增加学习机会，即W. h=8个头。 d(model)/h=64</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (16).png" alt="" width="545"><figcaption><p>使用多头注意力是为了增加学习机会，即W. h=8个头。 d(model)/h=64</p></figcaption></figure>
 
 输入X, 通过上述方法，得到多组Q/K/V权重矩阵，
 
@@ -60,7 +60,10 @@ Encoder 的结构是一个**自注意力机制**加上一个**前馈神经网络
 最后, 再乘以一个矩阵，得到一个前馈神经网络层的输入。
 
 **总结一下：** Encoder的架构是对输入进行编码，使用自注意力机制 + 前馈神经网络Position-Wise Feed-Forward Network (FFN) 的结构。\
+\
 
+
+<figure><img src="../../.gitbook/assets/image.png" alt="" width="488"><figcaption><p>Position-wise Feed-Forward Network</p></figcaption></figure>
 
 2. <mark style="color:purple;">**Decoder**</mark>
 
