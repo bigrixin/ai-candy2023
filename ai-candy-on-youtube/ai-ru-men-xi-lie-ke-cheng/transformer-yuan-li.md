@@ -65,7 +65,7 @@ Encoder 的结构是一个**自注意力机制**加上一个**前馈神经网络
 
 2. <mark style="color:purple;">**Decoder**</mark>
 
-**Decoder中使用的也是同样的结构。** 不同的地方在于，进行过自注意力机制后，将self-attention的输出再与Decoders模块的输出计算一遍注意力机制得分， 之后，再进入前馈神经网络模块。
+**Decoder中使用的也是同样的结构。** 不同的地方在于，在Endcoder的前端增加了一个掩码多头自注意力机制（t时间后的信息置为0），形成Decoder模块。前面的 Encoder 的输出, 作为部分Decorder 输入。计算一遍注意力机制的得分（点积）， 之后，再进入前馈神经网络模块。
 
 解码器输出本来是一个浮点型的向量。如何实现将“机器学习”翻译成“machine learing”。
 
