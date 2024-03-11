@@ -4,7 +4,13 @@ description: <<Attention Is All You Need>> paper study
 
 # Transformer 原理
 
-Trasnformer 是基于循环神经网络Recurrent Neural Network (RNN) , 加入自注意力机制的深度学习模型。\
+Trasnformer 是基于循环神经网络Recurrent Neural Network (**RNN**) , 加入自注意力机制 **(Self-Attention)** 的深度学习模型。
+
+* _<mark style="color:blue;">RNN是一种序列模型，可以得到序列信息。但是，RNN 只能顺序执行，不能并行计算，若数据量大，早期信息容易丢失。Attention 可以并行。</mark>_
+* _<mark style="color:blue;">CNN可以做多通道输出，但是，对于长数据，难以建模。</mark>_
+* _<mark style="color:blue;">序列模型中比较好的是 Encoder-Decoder架构。</mark>_
+
+\
 Trasnformer 包含了两个主要组成：Encoder 和 Decoder。 (序列模型)
 
 * Encoder里边有6个小编码器，每一个的小编码器的输入是前一个小编码器的输出。
@@ -78,6 +84,12 @@ Encoder 的结构是一个**自注意力机制(Self-Attention)** + **前馈神�
 <figure><img src="../../.gitbook/assets/image (8).png" alt=""><figcaption><p>The Transformer - model architecture</p></figcaption></figure>
 
 ***
+
+**输入Embedding**: 转换输入和输出 token 映射到一个 512维度 的向量里
+
+***
+
+
 
 Reference: \
 [https://papers.nips.cc/paper\_files/paper/2017/file/3f5ee243547dee91fbd053c1c4a845aa-Paper.pdf](https://papers.nips.cc/paper\_files/paper/2017/file/3f5ee243547dee91fbd053c1c4a845aa-Paper.pdf)\
