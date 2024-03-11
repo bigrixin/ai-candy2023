@@ -85,7 +85,7 @@ Encoder 的结构是一个**自注意力机制(Self-Attention)** + **前馈神�
 
 ***
 
-**输入Embedding**: 转换输入和输出 token 映射到一个 512维度 的向量里
+**输入Embedding**: 转换输入和输出(Softmax前) token 映射到一个 512维度 的向量里。在Embedding层是将权重 乘以根号d, (d=512)
 
 ***
 
