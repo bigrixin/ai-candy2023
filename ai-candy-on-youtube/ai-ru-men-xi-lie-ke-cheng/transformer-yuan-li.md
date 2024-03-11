@@ -16,7 +16,7 @@ Encoder 的结构是一个**自注意力机制**加上一个**前馈神经网络
 
 **自注意力机制 self-attention**：是自己和自己计算一遍注意力。 输入为一个向量，再乘以三个矩阵，得到三个新的向量。如下图：输入向量为X, 乘以 WQ，WK，WV矩阵，就会分别得到新的权重矩阵 Q，K，V。
 
-(Q: Query, K: key, V: value。三者长度相同)
+(Q: Query, K: key, V: value。K 和 V长度相同)
 
 <figure><img src="../../.gitbook/assets/self-attention-1.png" alt=""><figcaption></figcaption></figure>
 
