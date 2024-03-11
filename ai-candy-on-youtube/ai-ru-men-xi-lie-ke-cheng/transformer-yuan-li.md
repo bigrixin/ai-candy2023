@@ -4,7 +4,7 @@ description: <<Attention Is All You Need>> paper study
 
 # Transformer 原理
 
-Trasnformer 可以理解为是基于自注意力机制 self-attention的一个深度学习模型。\
+Trasnformer 可以理解为是一个基于Recurrent Neural Network (RNN) 模型, 增加了自注意力机制 （self-attention） 的模型。\
 Trasnformer 包含了两个主要组成：Encoder 和 Decoder。 (序列模型)
 
 * Encoder里边有6个小编码器，每一个的小编码器的输入是前一个小编码器的输出。
@@ -67,7 +67,7 @@ Encoder 的结构是一个**自注意力机制(Self-Attention)** + **前馈神�
 
 2. <mark style="color:purple;">**Decoder**</mark>
 
-**Decoder中使用的也是同样的结构。** 不同的地方在于，在Encoder的前端增加了一个掩码(Masked)多头自注意力机制（t时间后的信息置为0), 其输出Q。再与前面的 Encoder 的输出（K, V）, 作为输入, 进入下一层类似一个Encoder 模块。其输出，计算一遍注意力机制的得分（点积）。 最后，再进入前馈神经网络模块。
+**Decoder中使用的也是同样的结构。** 不同的地方在于，在Encoder的前端增加了一个掩码(Masked)多头自注意力机制（t时间后的信息置为0), 其输出Q。再与前面的 Encoder 的输出（K, V）, 作为输入, 进入下一层类似一个Encoder 模块。其输出，计算一遍注意力机制的得分（点积加权平均）。 最后，再进入前馈神经网络模块。
 
 解码器输出本来是一个浮点型的向量。如何实现将“机器学习”翻译成“machine learing”。
 
