@@ -35,7 +35,7 @@ Encoder 的结构是一个**自注意力机制**加上一个**前馈神经网络
 
 <figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (13).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (13).png" alt=""><figcaption><p>计算图</p></figcaption></figure>
 
 
 
