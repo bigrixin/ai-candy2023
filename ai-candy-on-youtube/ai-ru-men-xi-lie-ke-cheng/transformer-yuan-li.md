@@ -39,7 +39,25 @@ Encoder 的结构是一个**自注意力机制(Self-Attention)** + **前馈神�
 
 <figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
 
-**自注意力机制**：Q, K, V 都一样，来自自己。
+
+
+
+
+**自注意力机制**：Q, K, V 都来自内部，与外部无关。\
+&#x20;                           \
+Q向量 与 K向量的转置 点积， 生成因子矩阵，如下图：
+
+<figure><img src="../../.gitbook/assets/QxK.PNG" alt=""><figcaption><p><a href="https://towardsdatascience.com/transformers-explained-visually-not-just-how-but-why-they-work-so-well-d840bd61a9d3">Author</a>: <a href="https://ketanhdoshi.medium.com/?source=post_page-----d840bd61a9d3--------------------------------">Ketan Doshi</a></p></figcaption></figure>
+
+矩阵 再与 V向量 进行加权合计算， 得到 Z 注意力分数向量  (Attention Score Vector)&#x20;
+
+&#x20;         <mark style="color:orange;">**Z4 = Q4K1V1 + Q4K2V2 + Q4K3V3 + Q4K4V4**</mark>
+
+<figure><img src="../../.gitbook/assets/QKxV.PNG" alt=""><figcaption><p><a href="https://towardsdatascience.com/transformers-explained-visually-not-just-how-but-why-they-work-so-well-d840bd61a9d3">Author</a>: <a href="https://ketanhdoshi.medium.com/?source=post_page-----d840bd61a9d3--------------------------------">Ketan Doshi</a></p></figcaption></figure>
+
+<figure><img src="../../.gitbook/assets/QKV.PNG" alt=""><figcaption><p><a href="https://towardsdatascience.com/transformers-explained-visually-not-just-how-but-why-they-work-so-well-d840bd61a9d3">Author</a>: <a href="https://ketanhdoshi.medium.com/?source=post_page-----d840bd61a9d3--------------------------------">Ketan Doshi</a></p></figcaption></figure>
+
+
 
 **多头注意力机制**，顾名思义，包含多个自注意力机制，然后将多个自注意力机制的输出进行拼接，最后通过全连接层得到输出。
 
