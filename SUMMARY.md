@@ -23,6 +23,7 @@
     * [VS debug Angular launch Chrome](programming/angular/vs-debug-angular-launch-chrome/README.md)
       * [Debug Angular app using JavaScript Debugger in VS Code](programming/angular/vs-debug-angular-launch-chrome/debug-angular-app-using-javascript-debugger-in-vs-code.md)
     * [15 Skills](programming/angular/15-skills/README.md)
+      * [Get first day of year, month, and date](programming/angular/15-skills/get-first-day-of-year-month-and-date.md)
       * [Call a function in a forEach loop](programming/angular/15-skills/call-a-function-in-a-foreach-loop.md)
       * [disable and readonly](programming/angular/15-skills/disable-and-readonly.md)
       * [Form element value](programming/angular/15-skills/form-element-value.md)
