@@ -113,7 +113,9 @@ Decoder 后，接上一个softmax变成一个线性层。 使用全连接神经�
 
 
 
-Reference: \
+Reference:&#x20;
+
+[https://towardsdatascience.com/transformers-explained-visually-not-just-how-but-why-they-work-so-well-d840bd61a9d3](https://towardsdatascience.com/transformers-explained-visually-not-just-how-but-why-they-work-so-well-d840bd61a9d3)\
 [https://papers.nips.cc/paper\_files/paper/2017/file/3f5ee243547dee91fbd053c1c4a845aa-Paper.pdf](https://papers.nips.cc/paper\_files/paper/2017/file/3f5ee243547dee91fbd053c1c4a845aa-Paper.pdf)\
 [https://mp.weixin.qq.com/s/slOlE8fe91jZBMYhAV9Z7A\
 https://mp.weixin.qq.com/s?\_\_biz=Mzg3MjY1MzExMA==\&mid=2247514134\&idx=1\&sn=2efa12ff4b0c5211a2bdc13596cc44b9\&chksm=cfb6f9ebd0f6539bc5bbcdd305f27b47a3546100e444b43ac2a8e78c8e48a280aea55d61bcc2\&scene=132\&exptype=timeline\_recommend\_article\_extendread\_samebiz\&show\_related\_article=1\&subscene=0\&poc\_token=HC0s7mWjrZK5vW9esQvZFLfHgXa8Sqph7wWBf-Wb\
