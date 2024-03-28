@@ -96,6 +96,7 @@
     * [HTTP Return code](programming/.net-skills/http-return-code.md)
     * [IdentityServer4](programming/.net-skills/identityserver4.md)
   * [Power BI](programming/power-bi/README.md)
+    * [Add parameter to PowerBI report](programming/power-bi/add-parameter-to-powerbi-report.md)
     * [Convert UTC to Local time](programming/power-bi/convert-utc-to-local-time.md)
     * [Python in PowerBI](programming/power-bi/python-in-powerbi/README.md)
       * [IEEE-754 conversion](programming/power-bi/python-in-powerbi/ieee-754-conversion.md)
