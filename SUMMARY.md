@@ -10,7 +10,7 @@
     * [前馈神经网络 (FNN)](ai-candy-on-youtube/ai-ru-men-xi-lie-ke-cheng/qian-kui-shen-jing-wang-luo-fnn.md)
 * [✅ Programming](programming/README.md)
   * [Angular](programming/angular/README.md)
-    * [JSON Parse](programming/angular/json-parse.md)
+    * [JSON Parse && Object Array](programming/angular/json-parse-and-and-object-array.md)
     * [Detect unused import in Typescript](programming/angular/detect-unused-import-in-typescript.md)
     * [Change location using radio button](programming/angular/change-location-using-radio-button.md)
     * [⏲️ Time zone (current time from server)](programming/angular/time-zone-current-time-from-server/README.md)
