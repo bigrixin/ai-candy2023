@@ -7,6 +7,6 @@
 <nlog xmlns="http://www.nlog-project.org/schemas/NLog.xsd"
       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
       autoReload="true"
-      internalLogLevel="Info"
+      internalLogLevel="Trace"    // INFO, WARN, and ERROR   <<<<<<<
       internalLogFile="${basedir}/logs/internal-nlog-AspNetCore.txt">   <<<<<<<<
 ```
