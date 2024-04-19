@@ -11,18 +11,18 @@
       -- 安装 Python，Pytorch,  Git,  ffmpeg 等
 
 
-	#. 安装显卡卡驱动（更新）
+	#. 安装（更新）显卡驱动
 
-	        https://www.nvidia.com/Download/index.aspx?lang=en-us   
+	     https://www.nvidia.com/  
 	
 	#. 安装 CUDA Toolkit （含显卡驱动）
 
-	        https://developer.nvidia.com/cuda-toolkit-archive
+	     https://developer.nvidia.com/cuda-toolkit-archive
 	       
 	#. 查 CUDA 和 显卡驱动版本号
 
-	       nvcc --version
-	       nvidia 系统信息
+	    方法1    nvcc --version
+	    方法2    nvidia 系统信息
 		
 	------------------- 安装 Python 方法 1 ----------------------------------------------------------------------- 
 	
