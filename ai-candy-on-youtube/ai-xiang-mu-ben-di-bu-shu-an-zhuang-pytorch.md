@@ -39,17 +39,17 @@
 	       https://www.python.org
 	       -- 需要将Python路径设置的系统环境里  
 	
-		#. 安装 pip 
-	
-	               https://pypi.org/project/pip
-	               
-	        #. 安装 Git  
-	          
-	               https://git-scm.com
-	               
-	        #. 安装 ffmpeg     
-	                 
-	               https://ffmpeg.org
+               #. 安装 pip 
+
+                   https://pypi.org/project/pip
+               
+               #. 安装 Git  
+          
+                   https://git-scm.com
+               
+               #. 安装 ffmpeg     
+                 
+                   https://ffmpeg.org
 	
         ------------------- 安装 Python 方法 2 -----------------------------------------------------------------------                
                        
