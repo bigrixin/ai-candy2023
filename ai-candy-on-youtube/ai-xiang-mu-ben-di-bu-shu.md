@@ -33,12 +33,16 @@
 	
         ------------------- 安装 Python 方法 2 -----------------------------------------------------------------------                
                        
- 	#. 直接安装Anaconda (含Python)
+ 	#. 直接安装Anaconda (含Python, pip)
 
 	       https://www.anaconda.com/download
 	
 	       清华大学镜像：
 	       https://mirrors.tuna.tsinghua.edu.cn/anaconda/archive/
+	
+	
+	   - MiniCanda
+	       https://docs.anaconda.com/free/miniconda/
   	
         ------------------------------------------------------------------------------------------------------------
         
