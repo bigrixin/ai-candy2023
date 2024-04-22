@@ -85,8 +85,9 @@
 		
 		pip list (显示已安装的Package)
 		
-		conda install ......
-        
+		conda install ...... (安装包）
+		
+                conda deactivate     （退出环境）
         
        	       https://pytorch.org
        
@@ -110,7 +111,11 @@
 	https://jupyter.org/install
 	
 	pip install jupyterlab
-	pip install notebook      
+	pip install notebook     
+	
+	进入界面：
+	jupyter lab
+	jupyter notebook 
 	
 ```
 {% endcode %}
