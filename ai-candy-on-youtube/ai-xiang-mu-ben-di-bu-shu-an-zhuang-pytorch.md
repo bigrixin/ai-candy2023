@@ -59,10 +59,10 @@
                https://www.anaconda.com/download
 	
 	       清华大学镜像：
-	       https://mirrors.tuna.tsinghua.edu.cn/anaconda/archive/
+	          https://mirrors.tuna.tsinghua.edu.cn/anaconda/archive/
 	
 	
-	   2. Miniconda
+           2. Miniconda
 	       https://docs.anaconda.com/free/miniconda/
 	       -- conda install -y jupyter  (安装Jupyter notebook)
   	                      
