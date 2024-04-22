@@ -106,7 +106,7 @@
 
 {% code fullWidth="true" %}
 ```
-//  安装 Jupyter Lab / Notebook
+//  安装 Jupyter Lab / Notebook （在 PyTorch 环境中）
 
 	https://jupyter.org/install
 	
