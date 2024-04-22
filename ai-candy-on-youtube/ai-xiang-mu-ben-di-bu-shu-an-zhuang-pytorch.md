@@ -105,9 +105,12 @@
 
 {% code fullWidth="true" %}
 ```
-//  安装 Jupyter Notebook
+//  安装 Jupyter Lab / Notebook
 
-	 conda deactivate
-	 conda install -y jupyter  (安装Jupyter notebook)
+	https://jupyter.org/install
+	
+	pip install jupyterlab
+	pip install notebook      
+	
 ```
 {% endcode %}
