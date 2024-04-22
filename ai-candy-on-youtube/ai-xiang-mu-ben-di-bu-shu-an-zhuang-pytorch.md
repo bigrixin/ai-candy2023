@@ -7,7 +7,7 @@
 
 {% code fullWidth="true" %}
 ```markup
-【安装步骤】
+// Python 环境配置步骤 （AI 项目本地部署）
 
       -- 显卡驱动更新
       -- 安装 GPU 动态库，(Nvidia 英伟达显卡：CUDA Toolkit )
@@ -65,8 +65,16 @@
 	       -- conda install -y jupyter  (安装Jupyter notebook)
   	                      
         ------------------------------------------------------------------------------------------------------------
+
+```
+{% endcode %}
+
+{% code fullWidth="true" %}
+```
+// PyTorch 环境配置步骤
+
        
-        #. 安装和配置 PyTorch环境.
+        #. 安装和配置 PyTorch 环境.
 		
 		1. "Anaconda Prompt".
 		
@@ -95,12 +103,3 @@
 	 
 ```
 {% endcode %}
-
-*
-* {% code fullWidth="true" %}
-  ```
-        -- 显卡驱动更新
-        -- 安装 GPU 动态库，(Nvidia 英伟达显卡：CUDA Toolkit )
-        -- 安装 Python，Pytorch,  Git,  ffmpeg 等
-  ```
-  {% endcode %}
