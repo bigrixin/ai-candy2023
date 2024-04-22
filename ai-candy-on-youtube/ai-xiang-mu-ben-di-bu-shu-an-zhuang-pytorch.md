@@ -86,8 +86,7 @@
 		pip list (显示已安装的Package)
 		
 		conda install ...... (安装包）
-		
-                conda deactivate     （退出环境）
+		conda deactivate     （退出环境）
         
        	       https://pytorch.org
        
@@ -97,6 +96,7 @@
 	          https://pytorch.org/get-started/locally/
 
 	       2. 进入 python
+	
 		  >>import torch    
 		  >>torch.cuda.is_available()    ## 查看是否可以使用GPU， 结果为True 就是已经可以激活GPU
 		
