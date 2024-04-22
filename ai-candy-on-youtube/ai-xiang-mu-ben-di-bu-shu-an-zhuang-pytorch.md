@@ -100,6 +100,14 @@
 		  >>torch.cuda.is_available()    ## 查看是否可以使用GPU， 结果为True 就是已经可以激活GPU
 		
 
-	 
+```
+{% endcode %}
+
+{% code fullWidth="true" %}
+```
+//  安装 Jupyter Notebook
+
+	 canda deactivate
+	 conda install -y jupyter  (安装Jupyter notebook)
 ```
 {% endcode %}
