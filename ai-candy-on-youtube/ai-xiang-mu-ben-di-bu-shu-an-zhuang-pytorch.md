@@ -2,7 +2,8 @@
 
 * [https://www.youtube.com/watch?v=QuRvlo\_woBA](https://www.youtube.com/watch?v=QuRvlo\_woBA)
 *
-  1.
+
+
 
 {% code fullWidth="true" %}
 ```markup
@@ -13,7 +14,7 @@
       -- 安装 Python，Pytorch,  Git,  ffmpeg 等
 
 
-	###. 安装（更新）显卡驱动
+	#. 安装（更新）显卡驱动
 
 	     https://www.nvidia.com/  
 	
@@ -47,7 +48,7 @@
 	
         ------------------- 安装 Python 方法 2 -----------------------------------------------------------------------                
                        
- 	#. 直接安装Anaconda (含Python, pip)
+ 	#. 直接安装 Anaconda (含Python, pip)
 
            1. Anaconda:
                https://www.anaconda.com/download
@@ -62,7 +63,7 @@
   	                      
         ------------------------------------------------------------------------------------------------------------
        
-        #. 安装和配置PyTorch环境.
+        #. 安装和配置 PyTorch环境.
 		
 		1. "Anaconda Prompt".
 		
@@ -93,9 +94,6 @@
 {% endcode %}
 
 *
-
-<!---->
-
 * {% code fullWidth="true" %}
   ```
         -- 显卡驱动更新
