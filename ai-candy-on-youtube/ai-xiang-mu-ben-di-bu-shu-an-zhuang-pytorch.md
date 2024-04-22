@@ -1,9 +1,11 @@
 # 🖥️ AI项目本地部署-安装 Pytorch
 
 * [https://www.youtube.com/watch?v=QuRvlo\_woBA](https://www.youtube.com/watch?v=QuRvlo\_woBA)
+*
+  1.
 
 {% code fullWidth="true" %}
-```
+```markup
 【AI开源项目，本地部署的基本环境构建】
 
       -- 显卡驱动更新
@@ -11,7 +13,7 @@
       -- 安装 Python，Pytorch,  Git,  ffmpeg 等
 
 
-	#. 安装（更新）显卡驱动
+	###. 安装（更新）显卡驱动
 
 	     https://www.nvidia.com/  
 	
@@ -89,6 +91,10 @@
 	 
 ```
 {% endcode %}
+
+*
+
+<!---->
 
 * {% code fullWidth="true" %}
   ```
