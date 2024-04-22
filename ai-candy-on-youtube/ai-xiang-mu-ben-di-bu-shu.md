@@ -31,36 +31,48 @@
 	       https://www.python.org
 	       -- 需要将Python路径设置的系统环境里  
 	
+		#. 安装 pip 
+	
+               https://pypi.org/project/pip
+               
+	        #. 安装 Git  
+	          
+	               https://git-scm.com
+	               
+	        #. 安装 ffmpeg     
+	                 
+	               https://ffmpeg.org
+	
         ------------------- 安装 Python 方法 2 -----------------------------------------------------------------------                
                        
  	#. 直接安装Anaconda (含Python, pip)
 
-	       https://www.anaconda.com/download
+           1. Anaconda:
+               https://www.anaconda.com/download
 	
 	       清华大学镜像：
 	       https://mirrors.tuna.tsinghua.edu.cn/anaconda/archive/
 	
 	
-	   - MiniCanda
+	   2. Miniconda
 	       https://docs.anaconda.com/free/miniconda/
-  	
+	       -- conda install -y jupyter  (安装Jupyter notebook)
+  	                      
         ------------------------------------------------------------------------------------------------------------
-        
-	#. 安装 pip 
-	
-               https://pypi.org/project/pip
-               
-        #. 安装 Git  
-          
-               https://git-scm.com
-               
-        #. 安装 ffmpeg     
-                 
-               https://ffmpeg.org
-                       
-       ------------------------------------------------------------------------------------------------------------
        
-        #. 安装 Pytorch
+        #. 安装和配置PyTorch环境.
+		
+		1. "Anaconda Prompt".
+		
+		2. 输入命令
+		
+		conda create -n pytorch python=3.11
+		conda activate pytorch
+		
+		pip list (显示已安装的Package)
+		
+		conda install ......
+        
         
        	       https://pytorch.org
        
