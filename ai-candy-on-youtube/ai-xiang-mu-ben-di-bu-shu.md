@@ -36,6 +36,9 @@
  	#. 直接安装Anaconda (含Python)
 
 	       https://www.anaconda.com/download
+	
+	       清华大学镜像：
+	       https://mirrors.tuna.tsinghua.edu.cn/anaconda/archive/
   	
         ------------------------------------------------------------------------------------------------------------
         
@@ -70,3 +73,11 @@
 	 
 ```
 {% endcode %}
+
+* {% code fullWidth="true" %}
+  ```
+        -- 显卡驱动更新
+        -- 安装 GPU 动态库，(Nvidia 英伟达显卡：CUDA Toolkit )
+        -- 安装 Python，Pytorch,  Git,  ffmpeg 等
+  ```
+  {% endcode %}
