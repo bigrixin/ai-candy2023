@@ -107,7 +107,7 @@
 ```
 //  安装 Jupyter Notebook
 
-	 canda deactivate
+	 conda deactivate
 	 conda install -y jupyter  (安装Jupyter notebook)
 ```
 {% endcode %}
