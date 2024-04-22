@@ -7,12 +7,20 @@
 
 {% code fullWidth="true" %}
 ```markup
-【AI开源项目，本地部署的基本环境构建】
+【安装步骤】
 
       -- 显卡驱动更新
       -- 安装 GPU 动态库，(Nvidia 英伟达显卡：CUDA Toolkit )
       -- 安装 Python，Pytorch,  Git,  ffmpeg 等
 
+      -----------------------------------------------------------------------------------
+
+	#. 查 CUDA 和 显卡驱动版本号
+
+            https://docs.nvidia.com/cuda/cuda-toolkit-release-notes/index.html
+            
+	    CUDA版本：    nvcc --version
+	    显卡版本：     nvidia 系统信息
 
 	#. 安装（更新）显卡驱动
 
@@ -22,10 +30,7 @@
 
 	     https://developer.nvidia.com/cuda-toolkit-archive
 	       
-	#. 查 CUDA 和 显卡驱动版本号
 
-	    CUDA版本：    nvcc --version
-	    显卡版本：     nvidia 系统信息
 		
 	------------------- 安装 Python 方法 1 ----------------------------------------------------------------------- 
 	
