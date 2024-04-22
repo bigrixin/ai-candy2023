@@ -1,4 +1,4 @@
-# 🖥️ AI项目本地部署
+# 🖥️ AI项目本地部署-安装 Pytorch
 
 * [https://www.youtube.com/watch?v=QuRvlo\_woBA](https://www.youtube.com/watch?v=QuRvlo\_woBA)
 
@@ -33,8 +33,8 @@
 	
 		#. 安装 pip 
 	
-               https://pypi.org/project/pip
-               
+	               https://pypi.org/project/pip
+	               
 	        #. 安装 Git  
 	          
 	               https://git-scm.com

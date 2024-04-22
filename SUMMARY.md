@@ -2,7 +2,7 @@
 
 * [😄 About](README.md)
 * [🚩 AI-Candy on YouTube](ai-candy-on-youtube/README.md)
-  * [🖥️ AI项目本地部署](ai-candy-on-youtube/ai-xiang-mu-ben-di-bu-shu.md)
+  * [🖥️ AI项目本地部署-安装 Pytorch](ai-candy-on-youtube/ai-xiang-mu-ben-di-bu-shu-an-zhuang-pytorch.md)
   * [📝 AI 入门系列课程](ai-candy-on-youtube/ai-ru-men-xi-lie-ke-cheng/README.md)
     * [人工智能，机器学习，深度学习 和神经网络的区别](ai-candy-on-youtube/ai-ru-men-xi-lie-ke-cheng/ren-gong-zhi-neng-ji-qi-xue-xi-shen-du-xue-xi-he-shen-jing-wang-luo-de-qu-bie.md)
     * [卷积神经网络（CNN）](ai-candy-on-youtube/ai-ru-men-xi-lie-ke-cheng/juan-ji-shen-jing-wang-luo-cnn.md)
