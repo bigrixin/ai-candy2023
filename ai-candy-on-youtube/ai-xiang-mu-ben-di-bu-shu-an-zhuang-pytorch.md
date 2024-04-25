@@ -119,3 +119,14 @@
 	
 ```
 {% endcode %}
+
+{% code fullWidth="true" %}
+```
+//  打开 jupyter lab
+
+  1. 打开 Anaconda 的命令行窗口： anaconda Prompt (miniconda3)
+  2. 执行 conda activate pytorch，进入 Pytorch 环境空间   // 能看到前面有（pytorch）
+  3. 运行命令 jupyter lab
+  
+```
+{% endcode %}
