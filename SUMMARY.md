@@ -186,11 +186,4 @@
     * [Endnote使用技巧](research-greater-than-greater-than-eeg/endnote/endnote.md)
     * [批量删除/修改Endnote 中 notes 栏内容](research-greater-than-greater-than-eeg/endnote/endnote-edit.md)
   * [6️ ScaneR](research-greater-than-greater-than-eeg/3.scaner.md)
-
-## 🔬 RESEARCH - EEG <a href="#eeg-erp" id="eeg-erp"></a>
-
-* [【情绪驾驶调查问卷】](eeg-erp/questionnaire.md)
-
-***
-
 * [☕ Buy me a coffee](https://www.buymeacoffee.com/stevenzhai)
