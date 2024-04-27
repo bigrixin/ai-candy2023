@@ -34,6 +34,17 @@ description: '- YouTube 视频 相关文本内容'
 
 	     https://developer.nvidia.com/cuda-toolkit-archive
 	       
+```
+{% endcode %}
+
+{% hint style="danger" %}
+正确安装 CUDA Toolkit 和 显卡驱动版本，是能够使用GPU的关键。
+{% endhint %}
+
+{% code fullWidth="true" %}
+```
+// 安装 Python
+
 	------------------- 安装 Python 方法 1 ----------------------------------------------------------------------- 
 	
 	#. 单独安装 Python
@@ -69,7 +80,6 @@ description: '- YouTube 视频 相关文本内容'
 	       -- conda install -y jupyter  (安装Jupyter notebook)
   	                      
         ------------------------------------------------------------------------------------------------------------
-
 ```
 {% endcode %}
 
@@ -104,7 +114,6 @@ description: '- YouTube 视频 相关文本内容'
 		  >>import torch    
 		  >>torch.cuda.is_available()    ## 查看是否可以使用GPU， 结果为True 就是已经可以激活GPU
 		
-
 ```
 {% endcode %}
 
