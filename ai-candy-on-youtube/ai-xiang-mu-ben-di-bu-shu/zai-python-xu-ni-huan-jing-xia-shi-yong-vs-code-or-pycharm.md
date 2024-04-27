@@ -1,8 +1,10 @@
 ---
-description: Implementing PyTorch with VS code in virtual python environment
+description: Implementing PyTorch or PyCharm with VS code in virtual python environment
 ---
 
-# 2️⃣ 在Python 虚拟环境下使用 VS Code
+# 2️⃣ 在Python虚拟环境下使用 VS Code or PyCharm
+
+## VS Code
 
 1. Install VS Code
 2. Open VS Code
@@ -13,12 +15,22 @@ description: Implementing PyTorch with VS code in virtual python environment
 
 <figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
-
-
 ```
 // Check CUDA
 
 import torch
 print("Pytorch CUDA Version is", torch.version.cuda)
 print("Whether CUDA is supported by our system:", torch.cuda.is_available())
+
 ```
+
+## PyCharm
+
+* Install PyCharm
+* Create a new project
+* Select Custom environment
+* Select existing
+* Select Conda Type
+* Select Environment
+
+<figure><img src="../../.gitbook/assets/image (18).png" alt=""><figcaption></figcaption></figure>
