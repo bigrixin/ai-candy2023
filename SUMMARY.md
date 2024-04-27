@@ -148,7 +148,7 @@
 
 ## 💠 Skills and app <a href="#skills" id="skills"></a>
 
-* [👉 1. Windows system app skills](skills/windows/README.md)
+* [📗 1. Windows system app skills](skills/windows/README.md)
   * [blob 视频下载](skills/windows/blob-shi-pin-xia-zai.md)
   * [Photoshop 制作证件照片](skills/windows/photoshop-zhi-zuo-zheng-jian-zhao-pian.md)
   * [获取 Windows Key](skills/windows/huo-qu-windows-key.md)
@@ -163,7 +163,7 @@
   * [安装程序出错 2052,2053 报警](skills/windows/installation-error.md)
 * [👉 2. Linux command](skills/2.-linux-command.md)
 * [👉 3. git command](skills/3.-git-command.md)
-* [👉 4. GitHub Desktop](skills/4.-github-desktop/README.md)
+* [📕 4. GitHub Desktop](skills/4.-github-desktop/README.md)
   * [New Repositor on Bitbucket](skills/4.-github-desktop/new-repositor-on-bitbucket.md)
 * [👉 5. Gitbook Skills](skills/gitbook-ji-qiao.md)
 

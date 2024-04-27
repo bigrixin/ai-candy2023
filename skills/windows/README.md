@@ -2,7 +2,7 @@
 description: 操作系统及软件使用技巧
 ---
 
-# 👉 1. Windows system app skills
+# 📗 1. Windows system app skills
 
 1. Port SETUP utility: [Hercules](https://www.hw-group.com/sw-applications) (RS-232,458, UDP/IP, TCP/IP terminal)
 2. Add auto-run application when the Windows system startup\
