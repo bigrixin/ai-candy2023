@@ -82,7 +82,7 @@ description: '- YouTube 视频 相关文本内容'
 		
 		1. "Anaconda Prompt".
 		
-		2. 输入命令
+		2. 输入命令 (建立虚拟环境）
 		
 		conda create -n pytorch python=3.11
 		conda activate pytorch
