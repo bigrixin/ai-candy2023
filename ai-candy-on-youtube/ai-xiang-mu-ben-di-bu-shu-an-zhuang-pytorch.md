@@ -95,18 +95,18 @@ description: '- YouTube 视频 相关文本内容'
 		2. 输入命令 (建立虚拟环境：名为pytorch , python 版本为 3.11）
 		
 		conda create -n pytorch python=3.11
-		conda activate pytorch
+		conda activate pytorch (进入/激活 名为 pytorch 的虚拟环境）
 		
 		pip list (显示已安装的Package)
 		
 		conda install ...... (安装包）
-		conda deactivate     （退出环境）
+		conda deactivate     （退出虚拟环境）
         
-       	       https://pytorch.org
-       
+        
         #. 检查GPU是否被激活
         
 	       1. 安装 pytorch
+	
 	          https://pytorch.org/get-started/locally/
 
 	       2. 进入 python
@@ -119,7 +119,7 @@ description: '- YouTube 视频 相关文本内容'
 
 {% code fullWidth="true" %}
 ```
-//  安装 Jupyter Lab / Notebook （在 PyTorch 环境中）
+//  安装 Jupyter Notebook / Lab （在 PyTorch 环境中）
 
 	https://jupyter.org/install
 	
