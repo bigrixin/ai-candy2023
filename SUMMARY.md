@@ -178,7 +178,7 @@
 
 ## 🔬 RESEARCH - EEG <a href="#eeg-erp" id="eeg-erp"></a>
 
-* [👉 1. EEG基本知识的理论介绍](eeg-erp/fundament/README.md)
+* [1️ EEG基本知识的理论介绍](eeg-erp/fundament/README.md)
   * [EEG 简介](eeg-erp/fundament/introduction.md)
   * [EEG 的节律信号](eeg-erp/fundament/neural-oscillations.md)
   * [EEG电极帽](eeg-erp/fundament/electrode.md)
@@ -186,13 +186,12 @@
   * [ERP 介绍](eeg-erp/fundament/erp.md)
   * [ERP 成分](eeg-erp/fundament/erp-component.md)
   * [EEG 数据分析软件](eeg-erp/fundament/analysis-tools.md)
-* [👉 2. LSL 应用](eeg-erp/lsl-app/README.md)
-  * [Untitled](eeg-erp/lsl-app/untitled.md)
-* [👉 3. EEG公开数据集汇总整理](eeg-erp/eeg-dataset.md)
-* [👉 4. REDCap](eeg-erp/redcap/README.md)
+* [2️ LSL 应用](eeg-erp/lsl-app.md)
+* [3️ EEG公开数据集汇总整理](eeg-erp/eeg-dataset.md)
+* [4️ REDCap](eeg-erp/redcap/README.md)
   * [Migration (Export & Import)](eeg-erp/redcap/migration.md)
-* [👉 5. EndNote](eeg-erp/5.-endnote.md)
-* [👉 6. ScaneR](eeg-erp/3.scaner.md)
+* [5️ EndNote](eeg-erp/endnote.md)
+* [6️ ScaneR](eeg-erp/3.scaner.md)
 
 ## 😄 情绪相关 <a href="#emotion" id="emotion"></a>
 

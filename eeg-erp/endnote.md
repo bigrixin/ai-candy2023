@@ -1,4 +1,4 @@
-# 👉 5. EndNote
+# 5️ EndNote
 
 ### Add Citation in the EndNote:
 

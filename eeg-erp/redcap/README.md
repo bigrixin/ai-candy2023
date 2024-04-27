@@ -2,7 +2,7 @@
 description: REDCap 提供了强大的功能，用于在线调查问卷。
 ---
 
-# 👉 4. REDCap
+# 4️ REDCap
 
 **1. Survey settings**
 
