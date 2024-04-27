@@ -6,9 +6,12 @@ description: Implementing PyTorch with VS code in virtual python environment
 
 1. Install VS Code
 2. Open VS Code
-3. Install extention (Python, Jupyter) in VS Code
+3. Install extention (Python, Jupyter)&#x20;
 4. Ctrl + Shift + P
 5. Python: Select Interpreter  (Select virtual python environment)
+6. Select pytorch (Python 3.11.9)
+
+<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
 
 
