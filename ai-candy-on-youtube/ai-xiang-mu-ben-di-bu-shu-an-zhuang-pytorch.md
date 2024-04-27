@@ -90,9 +90,9 @@ description: '- YouTube 视频 相关文本内容'
        
         #. 安装和配置 PyTorch 环境.
 		
-		1. "Anaconda Prompt".
+		1. 进入"Anaconda Prompt".
 		
-		2. 输入命令 (建立虚拟环境）
+		2. 输入命令 (建立虚拟环境：名为pytorch , python 版本为 3.11）
 		
 		conda create -n pytorch python=3.11
 		conda activate pytorch
