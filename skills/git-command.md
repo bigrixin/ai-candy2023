@@ -2,7 +2,7 @@
 description: dotnet new gitignore  (create a new .gitignore)
 ---
 
-# 👉 3. git command
+# 3️ Git command
 
 dotnet new gitignore (create a new .gitignore)
 

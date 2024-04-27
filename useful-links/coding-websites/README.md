@@ -1,4 +1,4 @@
-# 💾 Coding websites
+# 1️ Coding websites
 
 * [Awesome Design Plugins](https://github.com/goabstract/Awesome-Design-Tools/blob/master/Awesome-Design-Plugins.md)
 * [Design Resources For Developers](https://gist.github.com/mahendra0859/f887899a5899e4e757033e5791806f54)

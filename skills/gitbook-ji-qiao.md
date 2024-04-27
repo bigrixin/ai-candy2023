@@ -1,4 +1,4 @@
-# 👉 5. Gitbook Skills
+# 5️ Gitbook Skills
 
 ## &#x20;[㊙](https://apps.timwhitlock.info/emoji/tables/unicode#emoji-modal) Emoji Unicode [😛](https://apps.timwhitlock.info/emoji/tables/unicode#emoji-modal)
 

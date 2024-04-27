@@ -1,4 +1,4 @@
-# 👉 2. Linux command
+# 2️ Linux command
 
 ### [Top 50 Linux Commands You Must Know as a Regular User](https://www.digitalocean.com/community/tutorials/linux-commands#top-50-linux-commands-you-must-know-as-a-regular-user)
 

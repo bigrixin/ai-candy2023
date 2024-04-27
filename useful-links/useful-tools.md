@@ -2,7 +2,7 @@
 description: '- 免费好用小程序'
 ---
 
-# 🔨 Windows 平台下有用的工具
+# 2️ Windows 平台下有用的工具
 
 * **脑图制作**：免费在线使用，功能基本不受限制，模板、图标。  [GitMind ](https://gitmind.com/)\
 

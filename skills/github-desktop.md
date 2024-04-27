@@ -2,7 +2,7 @@
 description: '- Publish code to GitHub using GitHub desktop'
 ---
 
-# 📕 4. GitHub Desktop
+# 3️ GitHub Desktop
 
 **Clone a git from GitHub**
 
