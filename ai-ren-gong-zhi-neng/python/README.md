@@ -2,7 +2,7 @@
 coverY: 0
 ---
 
-# 👉 2. Python&#x20;
+# 2️⃣ Python
 
 {% embed url="https://docs.python.org/3.9/tutorial/" %}
 [https://docs.python.org/zh-cn/3/reference/index.html](https://docs.python.org/zh-cn/3/reference/index.html)

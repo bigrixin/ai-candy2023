@@ -1,4 +1,4 @@
-# 🥇 Deep learning notes
+# 👉 Deep learning notes
 
 逻辑回归：
 

@@ -1,6 +1,4 @@
-# Pytorch 安装环境配置
-
-{% embed url="https://www.youtube.com/watch?index=1&list=PLgAyVnrNJ96CqYdjZ8v9YjQvCBcK5PZ-V&v=QJgjcnuQqNI" %}
+# Pytorch 安装环境配置 (old)
 
 ### **建立环境**
 

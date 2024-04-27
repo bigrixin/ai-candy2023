@@ -1,4 +1,4 @@
-# Deep Learning Resources
+# 👉 Deep Learning Resources
 
 {% embed url="https://bigrixin.gitbook.io/introduction/" %}
 

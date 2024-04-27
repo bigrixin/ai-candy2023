@@ -1,8 +1,4 @@
----
-coverY: 0
----
-
-# 👉 1. Deep learning / machine learning
+# 1️⃣ Deep learning / machine learning
 
 🧡入门资料：\
 &#x20;                                                               [<mark style="color:orange;">**深度学习笔记目录**</mark>](http://www.ai-start.com/dl2017/)
