@@ -1,7 +1,7 @@
 # Table of contents
 
 * [😄 About](README.md)
-* [🚩 AI-Candy on YouTube](ai-candy-on-youtube/README.md)
+* [🅰️ AI-Candy on YouTube](ai-candy-on-youtube/README.md)
   * [🎥 YouTube 视频列表](ai-candy-on-youtube/youtube-shi-pin-lie-biao.md)
   * [💠 AI项目本地部署](ai-candy-on-youtube/ai-xiang-mu-ben-di-bu-shu/README.md)
     * [1️⃣ 安装 Pytorch 运行环境](ai-candy-on-youtube/ai-xiang-mu-ben-di-bu-shu-an-zhuang-pytorch.md)
@@ -11,7 +11,7 @@
     * [2️ 卷积神经网络（CNN）](ai-candy-on-youtube/ai-ru-men-xi-lie-ke-cheng/juan-ji-shen-jing-wang-luo-cnn.md)
     * [3️ Transformer 原理](ai-candy-on-youtube/ai-ru-men-xi-lie-ke-cheng/transformer-yuan-li.md)
     * [4️ 前馈神经网络 (FNN)](ai-candy-on-youtube/ai-ru-men-xi-lie-ke-cheng/qian-kui-shen-jing-wang-luo-fnn.md)
-* [🎯 AI 人工智能](ai-ren-gong-zhi-neng/README.md)
+* [🎭 AI 人工智能](ai-ren-gong-zhi-neng/README.md)
   * [1️⃣ Deep learning / machine learning](ai-ren-gong-zhi-neng/ji-qi-xue-xi/README.md)
     * [👉 Deep Learning Resources](ai-ren-gong-zhi-neng/ji-qi-xue-xi/deep-learning-resources.md)
     * [👉 Deep learning notes](ai-ren-gong-zhi-neng/ji-qi-xue-xi/deep-learning-notes.md)
@@ -145,7 +145,7 @@
     * [Websocket-Server (SSL)](programming/video-stream-jsmpeg/websocket-server-ssl.md)
     * [Play RTSP video stream](programming/video-stream-jsmpeg/play-rtsp-video-stream.md)
   * [⏱️ UTC time and Datetime convert](programming/utc-time-and-datetime-convert.md)
-* [>>>>>>>>>>>>>>>>>>>>>>>>>>>>](greater-than-greater-than-greater-than-greater-than-greater-than-greater-than-greater-than-greater-t.md)
+* [>>>>>>>>>>>>>>>>>>>>>>>>>>>>](\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_.md)
 
 ## 💠 Skills and app <a href="#skills" id="skills"></a>
 
