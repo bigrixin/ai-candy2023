@@ -22,6 +22,10 @@ import torch
 print("Pytorch CUDA Version is", torch.version.cuda)
 print("Whether CUDA is supported by our system:", torch.cuda.is_available())
 
+
+
+device = 'cuda:0' if torch.cuda.is_available() else 'cpu'
+print(device)
 ```
 
 ## PyCharm
