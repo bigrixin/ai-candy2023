@@ -80,6 +80,7 @@
     * [Angular oauth2 OIDC](programming/angular/angular-oauth2-oidc.md)
     * [Angular add header](programming/angular/angular-add-header.md)
   * [.NET Skills](programming/.net-skills/README.md)
+    * [Database first, scaffold to class](programming/.net-skills/database-first-scaffold-to-class.md)
     * [Log default directory](programming/.net-skills/log-default-directory.md)
     * [Update appsetting.json value](programming/.net-skills/update-appsetting.json-value.md)
     * [Azure service bus message (queue)](programming/.net-skills/azure-service-bus-message-queue.md)
