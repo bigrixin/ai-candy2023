@@ -22,18 +22,21 @@ description: Implementing PyTorch or PyCharm with VS code in virtual python envi
 
 <figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
-```
-// Check CUDA
+<pre><code>// Check CUDA
 
 import torch
 print("CUDA Version is", torch.version.cuda)
 print("Pytorch Version is", torch.__version__)
 print("Whether CUDA is supported by our system:", torch.cuda.is_available())
 
-device = 'cuda:0' if torch.cuda.is_available() else 'cpu'
+device_id =  torch.cuda.current_device()
+print("Current Device name:", torch.cuda.get_device_name(device_id))
+
+<strong>cuda_id = "GPU open for cuda:"+str(device_id)
+</strong>device = cuda_id if torch.cuda.is_available() else 'cpu'
 print(device)
 
-```
+</code></pre>
 
 ## PyCharm
 
