@@ -19,7 +19,7 @@ Create model from table: Scaffold-DbContext "Server=.\SQLEXPRESS2019; User ID=sa
 
 class SquibWebContext: connect move to class WWWebContext.cs delete class SquibWebContext.cs
 
-1.  Add Base Repository
+1.  **Add Base Repository**
 
     Web Server->Controller->Repository->Unit of Work(DbContext)->EF database
 
@@ -50,7 +50,7 @@ class SquibWebContext: connect move to class WWWebContext.cs delete class SquibW
 
     Startup.cs public IServiceProvider ConfigureServices(IServiceCollection services) {\
     builder.RegisterModule(); builder.Populate(services); AutofacContainer = builder.Build(); }
-2. Add Controller
+2. **Add Controller**
 
 BarleyProductInfo, CanolaProductInfo, WheatProductInfo
 
@@ -72,11 +72,11 @@ New Scaffolded / API / API Controller with read/write actions Add IRepositories
 ```
 {% endcode %}
 
-4\. Add ViewModel
+**3. Add ViewModel**
 
 {% code fullWidth="true" %}
 ```
- Create sampleViewModel
+ //Create sampleViewModel
 
 
  public class AutoMapProfile : Profile
@@ -99,11 +99,11 @@ Startup.cs
 ```
 {% endcode %}
 
-5\. add repository (interface and service)
+**4. add repository (interface and service)**
 
 a. Create DriverRepository.cs in \Repositories\Repository b. Ctrl . Generate a IDriverRepository public interface IDriverRepository : IBaseRepository { } c. move to \IRepository
 
-1.  Add mapping in \MapProfileFormapper\AutoMapProfile.cs
+*   Add mapping in \MapProfileFormapper\AutoMapProfile.cs
 
     CreateMap\<DriverViewModel, Driver>().ReverseMap();
 
