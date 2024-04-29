@@ -19,13 +19,13 @@ description: Implementing PyTorch or PyCharm with VS code in virtual python envi
 // Check CUDA
 
 import torch
-print("Pytorch CUDA Version is", torch.version.cuda)
+print("CUDA Version is", torch.version.cuda)
+print("Pytorch Version is", torch.__version__)
 print("Whether CUDA is supported by our system:", torch.cuda.is_available())
-
-
 
 device = 'cuda:0' if torch.cuda.is_available() else 'cpu'
 print(device)
+
 ```
 
 ## PyCharm
