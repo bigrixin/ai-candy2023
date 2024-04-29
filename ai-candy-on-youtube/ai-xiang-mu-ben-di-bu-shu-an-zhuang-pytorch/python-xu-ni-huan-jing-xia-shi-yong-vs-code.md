@@ -22,7 +22,18 @@ description: Implementing PyTorch or PyCharm with VS code in virtual python envi
 
 <figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
-<pre><code>// Check CUDA
+## PyCharm
+
+* Install PyCharm
+* Create a new project
+* Select Custom environment
+* Select existing
+* Select Conda Type
+* Select Environment
+
+<figure><img src="../../.gitbook/assets/image (18).png" alt=""><figcaption></figcaption></figure>
+
+<pre><code>//check_v.py
 
 import torch
 print("CUDA Version is", torch.version.cuda)
@@ -38,13 +49,11 @@ print(device)
 
 </code></pre>
 
-## PyCharm
 
-* Install PyCharm
-* Create a new project
-* Select Custom environment
-* Select existing
-* Select Conda Type
-* Select Environment
 
-<figure><img src="../../.gitbook/assets/image (18).png" alt=""><figcaption></figcaption></figure>
+```
+// entryTorch.bat
+
+call conda activate pytorch
+python check_v.py
+```
