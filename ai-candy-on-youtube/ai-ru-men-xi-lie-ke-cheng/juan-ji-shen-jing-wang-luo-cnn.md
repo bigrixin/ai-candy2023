@@ -27,10 +27,12 @@ Class Net (nn.Module):
 <figure><img src="../../.gitbook/assets/CNN-3.gif" alt=""><figcaption></figcaption></figure>
 
 > 将卷积核矩阵中的每个值分别与输入矩阵内的值相乘，再叠加，最后得出1个值，作为输出值。\
-> 移动卷积核1步，再按上述方法，点积求和，作为第二个值，以此类推。
+> 移动卷积核1步（步长），再按上述方法，点积求和，作为第二个值，以此类推。
 >
-> 以下卷积后的矩阵边长尺寸：输入矩阵边长-卷积核边长+1   （5-3+1）
+> 步长为1，卷积后的矩阵边长尺寸：输入矩阵边长-卷积核边长+1   （5-3+1）
 
 <figure><img src="../../.gitbook/assets/image (22).png" alt=""><figcaption><p>卷积核</p></figcaption></figure>
 
 <figure><img src="../../.gitbook/assets/CNN-2.gif" alt=""><figcaption><p>点积求和</p></figcaption></figure>
+
+### 池化层：降低维度（参数）
