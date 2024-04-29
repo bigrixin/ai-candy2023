@@ -1,4 +1,4 @@
-# 卷积神经网络（CNN）
+# 2️ 卷积神经网络（CNN）
 
 <figure><img src="../../.gitbook/assets/CNN-1.gif" alt=""><figcaption></figcaption></figure>
 
@@ -22,4 +22,8 @@ Class Net (nn.Module):
 
 <figure><img src="../../.gitbook/assets/CNN-3.gif" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/CNN-2.gif" alt=""><figcaption></figcaption></figure>
+> 卷积：如下图，输入为5x5 蓝色矩阵， 卷积核（权重黄色矩阵）为3x3， 输出为卷积核里的每个值分别与输入矩阵内的值相乘后再叠加，做为输出的1个值。移动1步再按上述方法点积求和为第二个值，以此类推。
+
+<figure><img src="../../.gitbook/assets/image (22).png" alt=""><figcaption><p>卷积核</p></figcaption></figure>
+
+<figure><img src="../../.gitbook/assets/CNN-2.gif" alt=""><figcaption><p>点积求和</p></figcaption></figure>
