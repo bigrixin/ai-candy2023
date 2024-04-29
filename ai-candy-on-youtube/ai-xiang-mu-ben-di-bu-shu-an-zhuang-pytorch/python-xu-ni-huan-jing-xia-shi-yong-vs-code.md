@@ -4,6 +4,11 @@ description: Implementing PyTorch or PyCharm with VS code in virtual python envi
 
 # 2️⃣ 在Python虚拟环境下使用 VS Code or PyCharm
 
+## Check NVIDIA Driver and CUDA Version&#x20;
+
+1. cmd
+2. nvidia-smi
+
 ## VS Code
 
 1. Install VS Code
