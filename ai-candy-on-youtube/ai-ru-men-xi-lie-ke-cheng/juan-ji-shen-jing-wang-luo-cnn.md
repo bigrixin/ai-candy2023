@@ -22,7 +22,9 @@ Class Net (nn.Module):
 
 <figure><img src="../../.gitbook/assets/CNN-3.gif" alt=""><figcaption></figcaption></figure>
 
-> 卷积：如下图，输入为5x5 蓝色矩阵， 卷积核（权重黄色矩阵）为3x3， 输出为卷积核里的每个值分别与输入矩阵内的值相乘后再叠加，做为输出的1个值。移动1步再按上述方法点积求和为第二个值，以此类推。
+> 卷积：如下图，输入为5x5 蓝色矩阵， 卷积核（权重黄色矩阵）为3x3，\
+> 将卷积核里的每个值，分别对应到输入矩阵左上角3x3的区域。卷积核矩阵中的每个值分别与输入矩阵内的值相乘，最后再叠加，做为输出的1个值。\
+> 移动卷积核1步，再按上述方法，点积求和，作为第二个值，以此类推。
 
 <figure><img src="../../.gitbook/assets/image (22).png" alt=""><figcaption><p>卷积核</p></figcaption></figure>
 
