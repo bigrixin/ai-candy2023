@@ -33,9 +33,9 @@ description: Implementing PyTorch or PyCharm with VS code in virtual python envi
 
 <figure><img src="../../.gitbook/assets/image (18).png" alt=""><figcaption></figcaption></figure>
 
-## Check version and GPU
+## Check version and GPU (<mark style="color:red;">batch file</mark>)
 
-<pre><code>//check_v.py
+<pre><code>## check_v.py
 
 import torch
 print("CUDA Version is", torch.version.cuda)
@@ -52,7 +52,7 @@ print(device)
 </code></pre>
 
 ```
-// entryTorch.bat
+## entryTorch.bat
 
 call conda activate pytorch
 python check_v.py
