@@ -33,6 +33,8 @@ description: Implementing PyTorch or PyCharm with VS code in virtual python envi
 
 <figure><img src="../../.gitbook/assets/image (18).png" alt=""><figcaption></figcaption></figure>
 
+## Check version and GPU
+
 <pre><code>//check_v.py
 
 import torch
@@ -48,8 +50,6 @@ print("Current Device name:", torch.cuda.get_device_name(device_id))
 print(device)
 
 </code></pre>
-
-
 
 ```
 // entryTorch.bat
