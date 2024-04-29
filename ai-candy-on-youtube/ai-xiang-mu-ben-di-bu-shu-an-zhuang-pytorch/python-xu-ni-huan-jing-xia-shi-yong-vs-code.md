@@ -9,6 +9,8 @@ description: Implementing PyTorch or PyCharm with VS code in virtual python envi
 1. cmd
 2. nvidia-smi
 
+<figure><img src="../../.gitbook/assets/image (19).png" alt=""><figcaption></figcaption></figure>
+
 ## VS Code
 
 1. Install VS Code
