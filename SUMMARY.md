@@ -28,7 +28,7 @@
     * [Python 下载在线视频](ai-ren-gong-zhi-neng/2.-python/python-download-video.md)
     * [修改Jupyter Notebook 默认工作目录](ai-ren-gong-zhi-neng/2.-python/jupyter-directory.md)
   * [3️⃣ AI Websites](ai-ren-gong-zhi-neng/3.-ai-websites.md)
-* [✅ Programming](programming/README.md)
+* [🪤 Programming](programming/README.md)
   * [Angular](programming/angular/README.md)
     * [Remove shadow when print mat-dialog content](programming/angular/remove-shadow-when-print-mat-dialog-content.md)
     * [JSON Parse && Object Array](programming/angular/json-parse-and-and-object-array.md)
