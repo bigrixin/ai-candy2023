@@ -32,7 +32,7 @@ print("Whether CUDA is supported by our system:", torch.cuda.is_available())
 device_id =  torch.cuda.current_device()
 print("Current Device name:", torch.cuda.get_device_name(device_id))
 
-<strong>cuda_id = "GPU open for cuda:"+str(device_id)
+<strong>cuda_id = "GPU available for cuda:"+str(device_id)
 </strong>device = cuda_id if torch.cuda.is_available() else 'Only CPU can be used'
 print(device)
 
