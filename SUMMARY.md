@@ -83,6 +83,7 @@
     * [Angular oauth2 OIDC](programming/angular/angular-oauth2-oidc.md)
     * [Angular add header](programming/angular/angular-add-header.md)
   * [.NET Skills](programming/.net-skills/README.md)
+    * [BaseController](programming/.net-skills/basecontroller.md)
     * [Lambda group by many](programming/.net-skills/lambda-group-by-many.md)
     * [Datetime processing in AutoMapping](programming/.net-skills/datetime-processing-in-automapping.md)
     * [Database first, scaffold to class](programming/.net-skills/database-first-scaffold-to-class.md)
