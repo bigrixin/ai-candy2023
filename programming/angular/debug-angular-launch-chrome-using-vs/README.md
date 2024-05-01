@@ -1,10 +1,16 @@
-# VS debug Angular launch Chrome
+---
+description: launch chrome faster method
+---
 
-Run, Open configurations, copy below code.
+# Debug Angular launch Chrome using VS
 
-```
-launch.json
+Run, Open configurations, and copy below code.
 
+{% code fullWidth="true" %}
+````
+// Some code
+
+```jsonc
 {
     // Use IntelliSense to learn about possible attributes.
     // Hover to view descriptions of existing attributes.
@@ -15,12 +21,13 @@ launch.json
             "type": "chrome",
             "request": "launch",
             "name": "Launch Chrome against localhost",
-            "url": "http://localhost:4200",
+          //  "url": "http://localhost:4200",
+            "url": "http://[::1]:4200/",    ///<<<<<<<< load more faster
             "webRoot": "${workspaceFolder}",
             "trace": true
         }
     ]
 }
-
- 
 ```
+````
+{% endcode %}
