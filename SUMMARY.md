@@ -88,7 +88,7 @@
     * [Lambda group by many](programming/.net-skills/lambda-group-by-many.md)
     * [Datetime processing in AutoMapping](programming/.net-skills/datetime-processing-in-automapping.md)
     * [Database first, scaffold to class](programming/.net-skills/database-first-scaffold-to-class.md)
-    * [Log default directory](programming/.net-skills/log-default-directory.md)
+    * [Log setting and exception handler](programming/.net-skills/log-setting-and-exception-handler.md)
     * [Update appsetting.json value](programming/.net-skills/update-appsetting.json-value.md)
     * [Azure service bus message (queue)](programming/.net-skills/azure-service-bus-message-queue.md)
     * [Read appsetting.json value](programming/.net-skills/read-appsetting.json-value.md)
