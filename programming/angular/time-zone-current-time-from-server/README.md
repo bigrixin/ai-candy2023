@@ -107,6 +107,13 @@ public class TimeZoneService : ITimeZoneService
 	}
 }
 
+
+```
+{% endcode %}
+
+{% code fullWidth="true" %}
+```
+// Get local time from setting timezone
 DateTime currentLocalTimeFromServer = _timeZoneService.GetCurrentTimeFromSettingTimeZone();
 ```
 {% endcode %}
