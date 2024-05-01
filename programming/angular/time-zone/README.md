@@ -4,7 +4,7 @@ description: >-
   appsetting.json
 ---
 
-# ⏲️ Time zone (current time from server)
+# ⏲️ Time Zone
 
 {% code fullWidth="true" %}
 ```
