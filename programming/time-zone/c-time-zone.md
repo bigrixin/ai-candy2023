@@ -6,6 +6,31 @@ description: >-
 
 # C# Time Zone
 
+### **TimeZoneInfo cities**
+
+{% code fullWidth="true" %}
+```
+        var timeZoneCities = TimeZoneInfo.GetSystemTimeZones();
+        string combinedString = string.Join(Environment.NewLine, timeZoneCities);
+```
+{% endcode %}
+
+### **TimeZoneInfo ids**
+
+{% code fullWidth="true" %}
+```
+        string timeZoneIdsCombinedString = "";
+
+        foreach (TimeZoneInfo z in TimeZoneInfo.GetSystemTimeZones())
+        {
+            Console.WriteLine(z.Id);
+            timeZoneIdsCombinedString = timeZoneIds + Environment.NewLine+ z.Id;
+        }
+```
+{% endcode %}
+
+
+
 {% code fullWidth="true" %}
 ```
 // Australia Time Zone List
