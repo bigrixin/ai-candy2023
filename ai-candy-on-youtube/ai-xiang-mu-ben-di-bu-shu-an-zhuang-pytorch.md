@@ -105,9 +105,13 @@ description: '- YouTube 视频 相关文本内容'
         
         #. 检查GPU是否被激活
         
-	       1. 安装 pytorch
+	       1. 安装 pytorch 
 	
-	          https://pytorch.org/get-started/locally/
+	          conda activate pytorch  (进入/激活 名为 pytorch 的虚拟环境） 
+	
+	          https://pytorch.org/get-started/locally/  (选择本机环境，生成命令行）
+	
+	例如： conda install pytorch torchvision torchaudio pytorch-cuda=12.1 -c pytorch -c nvidia
 
 	       2. 进入 python
 	
