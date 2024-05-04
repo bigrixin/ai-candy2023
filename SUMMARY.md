@@ -156,6 +156,7 @@
 * [>>>>>>>>>>>>>>>>>>>>>>>>>>>>](greater-than-greater-than-greater-than-greater-than-greater-than-greater-than-greater-than-greater-t.md)
 * [🪜 Apps and Skills](\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_.md)
   * [1️ Windows system app skills](apps-and-skills/windows/README.md)
+    * [Check SHA256 on windows](apps-and-skills/windows/check-sha256-on-windows.md)
     * [blob 视频下载](apps-and-skills/windows/blob-shi-pin-xia-zai.md)
     * [Photoshop 制作证件照片](apps-and-skills/windows/photoshop-zhi-zuo-zheng-jian-zhao-pian.md)
     * [获取 Windows Key](apps-and-skills/windows/huo-qu-windows-key.md)
