@@ -57,3 +57,17 @@ print(device)
 call conda activate pytorch
 python check_v.py
 ```
+
+
+
+### Install cuDNN
+
+1. [https://developer.nvidia.com/cudnn](https://developer.nvidia.com/cudnn)
+2. Download cuDNN Library
+3. Select Windows -> x86\_64 -> Tarball -> 12 (CUDA  Version)
+4. Download and Unzip
+5. go to C:\Program Files\NVIDIA Corporation
+6. Create new folder: CUDNN
+7. Create a new folder, name it is v9.0 which in the folder CUDNN
+8. copy unzip files into the v9.x folder
+9. add path C:\Program Files\NVIDIA Corporation\CUDNN\v9.x\bin into **Environment Variables**
