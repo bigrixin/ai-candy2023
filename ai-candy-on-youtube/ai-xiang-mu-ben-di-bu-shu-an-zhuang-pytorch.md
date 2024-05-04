@@ -117,6 +117,13 @@ description: '- YouTube 视频 相关文本内容'
 ```
 {% endcode %}
 
+{% hint style="info" %}
+检查安装的环境虚拟环境\
+conda info --envs.
+
+conda env list.
+{% endhint %}
+
 {% code fullWidth="true" %}
 ```
 //  安装 Jupyter Notebook / Lab （在 PyTorch 环境中）
