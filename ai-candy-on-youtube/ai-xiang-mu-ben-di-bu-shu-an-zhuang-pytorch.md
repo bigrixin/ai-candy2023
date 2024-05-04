@@ -92,9 +92,9 @@ description: '- YouTube 视频 相关文本内容'
 		
 		1. 进入"Anaconda Prompt".
 		
-		2. 输入命令 (建立虚拟环境：名为pytorch , python 版本为 3.11）
+		2. 输入命令 (建立虚拟环境：名为pytorch , python 版本为 3.12）
 		
-		conda create -n pytorch python=3.11
+		conda create -n pytorch python=3.12
 		conda activate pytorch (进入/激活 名为 pytorch 的虚拟环境）
 		
 		pip list (显示已安装的Package)
