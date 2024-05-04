@@ -109,7 +109,7 @@ description: '- YouTube 视频 相关文本内容'
 	
 	          conda activate pytorch  (注意：需要先进入名为 pytorch 的虚拟环境） 
 	
-	          https://pytorch.org/get-started/locally/  (选择本机环境，生成命令行，执行安装））
+	          https://pytorch.org/get-started/locally/  (选择本机环境，生成命令行，执行安装）
 	
 	例如： conda install pytorch torchvision torchaudio pytorch-cuda=12.1 -c pytorch -c nvidia
 
@@ -134,7 +134,7 @@ conda env list
 
 	https://jupyter.org/install
 	
-	pip install jupyterlab
+	pip install jupyterlab  （建议安装Lab）
 	pip install notebook     
 	
 	进入界面：
