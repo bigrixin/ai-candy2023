@@ -122,7 +122,7 @@ description: '- YouTube 视频 相关文本内容'
 {% endcode %}
 
 {% hint style="info" %}
-检查安装的环境虚拟环境:\
+检查安装的虚拟环境:\
 conda info --envs
 
 conda env list
@@ -154,3 +154,8 @@ conda env list
   
 ```
 {% endcode %}
+
+{% hint style="danger" %}
+删除安装的虚拟环境:\
+conda remove -n <**env\_name**> --all
+{% endhint %}
