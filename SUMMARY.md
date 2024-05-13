@@ -81,7 +81,7 @@
   * [.NET Skills](programming/.net-skills/README.md)
     * [Validation filter](programming/.net-skills/validation-filter.md)
     * [BaseController](programming/.net-skills/basecontroller.md)
-    * [Lambda group by many](programming/.net-skills/lambda-group-by-many.md)
+    * [Group by many](programming/.net-skills/group-by-many.md)
     * [Datetime processing in AutoMapping](programming/.net-skills/datetime-processing-in-automapping.md)
     * [Database first, scaffold to class](programming/.net-skills/database-first-scaffold-to-class.md)
     * [Log setting and exception handler](programming/.net-skills/log-setting-and-exception-handler.md)
