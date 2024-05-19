@@ -23,8 +23,8 @@ description: '- YouTube 视频 相关文本内容'
 
             https://docs.nvidia.com/cuda/cuda-toolkit-release-notes/index.html
             
-	    CUDA版本：    nvcc --version
-	    显卡版本：     nvidia 系统信息
+	    nvcc --version   ### CUDA版本, nvidia 系统信息 
+	    nvidia-smi       ### CUDA版本, nvidia 系统信息 
 
 	#. 安装（更新）显卡驱动
 
