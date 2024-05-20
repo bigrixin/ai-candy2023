@@ -70,3 +70,15 @@ rm -rf path/venv-name                           // Delete virtual environment **
 re: https://www.dataquest.io/blog/a-complete-guide-to-python-virtual-environments/
 ```
 {% endcode %}
+
+> <mark style="color:blue;">**Use python environment in VS Code (Linux)**</mark>\
+>
+>
+> * source /scratch/pytorch/venv/bin/activate                       // Entry the virtual environment
+> *   (venv) which python
+>
+>     &#x20;           /scratch/pytorch/venv/bin/python                          //  <mark style="color:red;">copy this</mark>
+> * Open VS Code
+> * Ctrl +Shift + P - > python: select interpreter select&#x20;
+> * Enter interpreter path, entry:\
+>   /scratch/cszhai\_pytorch/venv/bin/python
