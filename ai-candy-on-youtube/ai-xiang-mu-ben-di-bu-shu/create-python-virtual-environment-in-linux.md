@@ -41,9 +41,9 @@ wheel      0.43.0
 ```
 ======= Install pytorch in virtual environment ===================================
 
-source /scratch/pytorch/venv/bin/activate           // Entry the virtual environment
+source /scratch/pytorch/venv/bin/activate            // Entry the virtual environment
 
-(venv) pip3 install torch torchvision torchaudio       // Install Pytorch
+(venv) pip3 install torch torchvision torchaudio     // Install Pytorch
 (venv) torch.cuda.is_available()
 (venv) true
 
@@ -64,7 +64,7 @@ pandas==1.3.5
 (venv) deactivate                               // Exit virtual environment
 
 ======== Delete a virtual environment ================================================
-rm -rf path/venv-name              // Delete virtual environment *****
+rm -rf path/venv-name                           // Delete virtual environment *****
 
 
 re: https://www.dataquest.io/blog/a-complete-guide-to-python-virtual-environments/
