@@ -6,6 +6,7 @@
   * [💠 AI项目本地部署](ai-candy-on-youtube/ai-xiang-mu-ben-di-bu-shu/README.md)
     * [1️⃣ 安装 Pytorch 运行环境](ai-candy-on-youtube/ai-xiang-mu-ben-di-bu-shu-an-zhuang-pytorch.md)
     * [2️⃣ 在Python虚拟环境下使用 VS Code or PyCharm](ai-candy-on-youtube/ai-xiang-mu-ben-di-bu-shu-an-zhuang-pytorch/python-xu-ni-huan-jing-xia-shi-yong-vs-code.md)
+    * [3️⃣ Create python virtual environment in Linux](ai-candy-on-youtube/ai-xiang-mu-ben-di-bu-shu/create-python-virtual-environment-in-linux.md)
   * [👽 AI 入门系列课程](ai-candy-on-youtube/ai-ru-men-xi-lie-ke-cheng/README.md)
     * [1️ 人工智能，机器学习，深度学习 和神经网络的区别](ai-candy-on-youtube/ai-ru-men-xi-lie-ke-cheng/ren-gong-zhi-neng-ji-qi-xue-xi-shen-du-xue-xi-he-shen-jing-wang-luo-de-qu-bie.md)
     * [2️ 卷积神经网络（CNN）](ai-candy-on-youtube/ai-ru-men-xi-lie-ke-cheng/juan-ji-shen-jing-wang-luo-cnn.md)
