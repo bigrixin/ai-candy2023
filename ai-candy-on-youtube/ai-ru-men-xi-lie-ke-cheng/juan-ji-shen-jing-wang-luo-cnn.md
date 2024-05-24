@@ -24,7 +24,7 @@ Class Net (nn.Module):
 
 ### <mark style="color:blue;">卷积（求点积）</mark>
 
-* 卷积过程：如下图，输入为5x5 蓝色矩阵， 卷积核（权重黄色矩阵）为3x3。 将卷积核矩阵对应到输入矩阵左上角3x3的区域（感受野）。
+* 卷积过程：如下图，输入为5x5 蓝色矩阵， 卷积核或称为<mark style="color:orange;">滤波器</mark>（权重黄色矩阵）为3x3。 将卷积核矩阵对应到输入矩阵左上角3x3的区域（感受野）。
 
 <figure><img src="../../.gitbook/assets/CNN-3.gif" alt=""><figcaption></figcaption></figure>
 
