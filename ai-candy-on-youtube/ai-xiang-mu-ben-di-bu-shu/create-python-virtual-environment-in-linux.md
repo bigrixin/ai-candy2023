@@ -82,3 +82,28 @@ re: https://www.dataquest.io/blog/a-complete-guide-to-python-virtual-environment
 > * Ctrl +Shift + P - > python: select interpreter select&#x20;
 > * Enter interpreter path, entry:\
 >   /scratch/cszhai\_pytorch/venv/bin/python
+
+{% code fullWidth="true" %}
+```
+// Error sovle
+
+Error: Python error message "kernel does not exist"  
+
+    pip uninstall jupyter_client            
+    pip uninstall jupyter_core              
+    pip uninstall jupyter-events            
+    pip uninstall jupyter-lsp               
+    pip uninstall jupyter_server            
+    pip uninstall jupyter_server_terminals  
+    pip uninstall jupyterlab              
+    pip uninstall jupyterlab_pygments       
+    pip uninstall jupyterlab_server          
+    pip uninstall ipykernel
+    
+    pip install jupyterlab
+
+Error:  Could not determine jupyterlab build status without nodejs
+
+    conda install -c conda-forge nodejs
+```
+{% endcode %}
