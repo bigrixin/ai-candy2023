@@ -47,7 +47,7 @@ Class Net (nn.Module):
 * 将小于0的置为0
 * 生成新的 Feature map
 
-<figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption><p>ReLu Function</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption><p>ReLu Function</p></figcaption></figure>
 
 #### 池化层 Pooling：降低维度（参数）
 
@@ -55,13 +55,13 @@ Class Net (nn.Module):
 * Mean Pooling：平均值
 * Sum pooling：取和
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 #### 展平
 
 * Flattening, 转成1维
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption><p>flattening</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption><p>flattening</p></figcaption></figure>
 
 <figure><img src="../../.gitbook/assets/image (5).png" alt=""><figcaption><p>Convolution structure</p></figcaption></figure>
 
@@ -71,9 +71,9 @@ Class Net (nn.Module):
 * 隐藏层，有ReLu
 * 输出层
 
-<figure><img src="../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
-#### 激活函数（非线性）
+**激活函数（非线性）**
 
 * Sigmoid: 输出为0-1之间的值，用于二分类。
 * SoftMax: 输出为0-1之间的值，总和为1， 用于多分类。
