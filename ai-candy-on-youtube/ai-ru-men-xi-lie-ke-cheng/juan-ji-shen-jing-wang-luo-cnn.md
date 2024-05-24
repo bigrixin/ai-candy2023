@@ -89,3 +89,4 @@ Class Net (nn.Module):
 * SGD
 * Adam
 
+Reffence: [https://mp.weixin.qq.com/s/pVY\_xzggwCeMtigdX1Eulg](https://mp.weixin.qq.com/s/pVY\_xzggwCeMtigdX1Eulg)
