@@ -46,21 +46,29 @@ Class Net (nn.Module):
 * 将小于0的置为0.        f(n) = max(n,0)&#x20;
 * 生成新的 Feature map
 
+<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption><p>ReLu Function</p></figcaption></figure>
+
 #### 池化层 Pooling：降低维度（参数）
 
 * Max polling: 每个窗口内个元素，取最大值
 * Mean Pooling：平均值
 * Sum pooling：取和
 
+<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+
 #### 展平
 
 * Flattening, 转成1维
+
+<figure><img src="../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
 
 ### <mark style="color:blue;">全链接（神经网络部分）</mark>
 
 * 将展平的值作为神经网络的输入层
 * 隐藏层，有ReLu
 * 输出层
+
+<figure><img src="../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
 
 #### 激活函数（非线性）
 

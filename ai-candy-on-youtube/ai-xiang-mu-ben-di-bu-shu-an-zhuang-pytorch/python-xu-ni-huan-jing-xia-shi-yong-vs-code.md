@@ -20,7 +20,7 @@ description: Implementing PyTorch or PyCharm with VS code in virtual python envi
 5. Python: Select Interpreter  (Select virtual python environment)
 6. Select pytorch (Python 3.11.9)
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
 
 ## PyCharm
 

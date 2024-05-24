@@ -30,14 +30,14 @@ Encoder 的结构是一个**自注意力机制(Self-Attention)** + **前馈神�
 
 **Attention:** 将新向量内容分别与K1, K2, Kt 向量进来点积运算，得到相似度（值越大，相似度越高）。再除以根号dk。再将结果进行softmax运算，即：将分数标准化, 归一化运算。(得到大约0，小于1的数，总和为1的权重).
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 最后，将上述结果分别与V1，V2，Vt 向量进来点积运算，再将结果加起来，得到一个权重矩阵Z。\
 
 
-<figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
 
 
 
@@ -65,13 +65,13 @@ Q向量 与 K向量的转置 点积， 生成因子矩阵，如下图：
 
 输入X, 通过上述方法，得到多组Q/K/V权重矩阵，
 
-<figure><img src="../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (5) (1).png" alt=""><figcaption></figcaption></figure>
 
 然后按照上节描述的那样，得到多个Z。
 
 
 
-<figure><img src="../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (6) (1).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../.gitbook/assets/image (13).png" alt=""><figcaption><p>计算图</p></figcaption></figure>
 
@@ -79,7 +79,7 @@ Q向量 与 K向量的转置 点积， 生成因子矩阵，如下图：
 
 对多个注意力机制的输出Z进行拼接, 就得到了self-attention层的输出。
 
-<figure><img src="../../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (7) (1).png" alt=""><figcaption></figcaption></figure>
 
 最后, 再乘以一个矩阵，得到一个前馈神经网络层的输入。
 
@@ -87,7 +87,7 @@ Q向量 与 K向量的转置 点积， 生成因子矩阵，如下图：
 \
 
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt="" width="488"><figcaption><p>Position-wise Feed-Forward Network</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1).png" alt="" width="488"><figcaption><p>Position-wise Feed-Forward Network</p></figcaption></figure>
 
 2. <mark style="color:purple;">**Decoder**</mark>
 
