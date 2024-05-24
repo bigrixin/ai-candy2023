@@ -14,7 +14,7 @@ Class Net (nn.Module):
         self.conv2=nn.Conv2d(6,16,5)     ## 输入6通道，输出16通道，卷积核3*3的的一个卷积层
  
     def forward(self, x):
-        x=F.max_pool2d(F.relu(self.conv1(x)),2)
+        x=F.max_pool2d(F.relu(self.conv1(x)),2)    ## 激活函数：转为非线性，最大值池化：降维
         x=F.max_pool2d(F.relu(self.conv2(x)),2)
         return x
 ```
