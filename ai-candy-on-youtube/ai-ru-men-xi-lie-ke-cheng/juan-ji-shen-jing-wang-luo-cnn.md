@@ -89,4 +89,9 @@ Class Net (nn.Module):
 * SGD
 * Adam
 
-Reffence: [https://mp.weixin.qq.com/s/pVY\_xzggwCeMtigdX1Eulg](https://mp.weixin.qq.com/s/pVY\_xzggwCeMtigdX1Eulg)
+Refences:
+
+* [https://mp.weixin.qq.com/s/pVY\_xzggwCeMtigdX1Eulg](https://mp.weixin.qq.com/s/pVY\_xzggwCeMtigdX1Eulg)
+* [https://mp.weixin.qq.com/s/oUIH2S0U4YncCCYKzUqNxQ](https://mp.weixin.qq.com/s/oUIH2S0U4YncCCYKzUqNxQ)
+* [https://mp.weixin.qq.com/s?\_\_biz=MzI2ODUyMTQyNA==\&mid=2247488904\&idx=1\&sn=90750c15870f21a4aebb9a36bcddad9c\&chksm=eaef0f37dd9886216105119b64249c0a6c51d3a0ab4b3d7f2ed0f4da8e691649e0e67188e9ee\&scene=21#wechat\_redirect](https://mp.weixin.qq.com/s?\_\_biz=MzI2ODUyMTQyNA==\&mid=2247488904\&idx=1\&sn=90750c15870f21a4aebb9a36bcddad9c\&chksm=eaef0f37dd9886216105119b64249c0a6c51d3a0ab4b3d7f2ed0f4da8e691649e0e67188e9ee\&scene=21#wechat\_redirect)
+* [https://mp.weixin.qq.com/s/EaZYs0ZE1DeBgmkh13ZllA](https://mp.weixin.qq.com/s/EaZYs0ZE1DeBgmkh13ZllA)
