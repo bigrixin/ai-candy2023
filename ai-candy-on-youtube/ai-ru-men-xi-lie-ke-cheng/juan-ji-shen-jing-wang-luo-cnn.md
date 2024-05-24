@@ -47,7 +47,7 @@ Class Net (nn.Module):
 * 将小于0的置为0
 * 生成新的 Feature map
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption><p>ReLu Function</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption><p>ReLu Function</p></figcaption></figure>
 
 #### 池化层 Pooling：降低维度（参数）
 
@@ -55,13 +55,15 @@ Class Net (nn.Module):
 * Mean Pooling：平均值
 * Sum pooling：取和
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 #### 展平
 
 * Flattening, 转成1维
 
-<figure><img src="../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption><p>flattening</p></figcaption></figure>
+
+<figure><img src="../../.gitbook/assets/image (5).png" alt=""><figcaption><p>Convolution structure</p></figcaption></figure>
 
 ### <mark style="color:blue;">全链接（神经网络部分）</mark>
 
