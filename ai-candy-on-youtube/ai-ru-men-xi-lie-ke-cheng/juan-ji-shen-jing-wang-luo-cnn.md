@@ -43,7 +43,7 @@ Class Net (nn.Module):
 
 #### 使用激活函数ReLu
 
-* 将小于0的置为0.        f(n) = max(n,0)&#x20;
+* 将小于0的置为0
 * 生成新的 Feature map
 
 <figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption><p>ReLu Function</p></figcaption></figure>
