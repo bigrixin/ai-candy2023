@@ -39,7 +39,7 @@ Encoder 的结构是一个**自注意力机制(Self-Attention)** + **前馈神�
 
 <figure><img src="../../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
 
-
+## <mark style="color:blue;">通过Softmax 将高分值，分给重要的词</mark>
 
 
 
