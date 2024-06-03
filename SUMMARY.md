@@ -63,6 +63,7 @@
     * [Import JS into Angular](programming/angular/import-js-into-angular.md)
     * [LocalStorage](programming/angular/localstorage.md)
     * [Angular DataTable](programming/angular/angular-datatable/README.md)
+      * [Data sort](programming/angular/angular-datatable/data-sort.md)
       * [A sample usage](programming/angular/angular-datatable/a-sample-usage.md)
       * [Angular DataTable server side big data query](programming/angular/angular-datatable/angular-datatable-server-side-big-data-query.md)
     * [Change chart.js chart type](programming/angular/change-chart.js-chart-type.md)
