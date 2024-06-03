@@ -46,11 +46,11 @@ public class SampleInvocable : IInvocable
 ```
 {% endcode %}
 
-
+**Cron expression generator**: [https://crontab.cronhub.io/](https://crontab.cronhub.io/)
 
 {% code fullWidth="true" %}
 ```
-// Cron expression: https://crontab.cronhub.io/
+// cron expression
 
 scheduler.Schedule(
 .Cron("0 0 1 * *") // At midnight on the 1st day of each month.
