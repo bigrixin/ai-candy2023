@@ -31,6 +31,7 @@
   * [3️⃣ AI Websites](ai-ren-gong-zhi-neng/3.-ai-websites.md)
 * [🪤 Programming](programming/README.md)
   * [Angular](programming/angular/README.md)
+    * [Select button for datatables](programming/angular/select-button-for-datatables.md)
     * [Switch button and event](programming/angular/switch-button-and-event.md)
     * [Delete column from Array](programming/angular/delete-column-from-array.md)
     * [Three-layer structure](programming/angular/three-layer-structure.md)
