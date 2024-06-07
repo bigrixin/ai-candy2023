@@ -5,7 +5,48 @@
 {% code fullWidth="true" %}
 ````
 // Some code
-```typescript
+```html
+  <table #table class="table table-bordered table-striped table-hover table-wrapper-scroll-y" datatable [dtOptions]="dtOptions"
+    [dtTrigger]="dtTrigger" style="width:100%" >
+    <thead class="table-dark">
+      <tr align="center" class="align-middle center">
+        <th>Id</th>
+        <th>QR Code </th>
+        <th>Download</th>
+        <th class="text-warning" style="width: 60px;">Print<br>
+          <!-- <a href="#/qrcode/batch-print">  -->
+            <button type="button" mat-button class="btn btn-outline-info btn-sm mb-1" (click)="BatchPrint()">
+            <i class="fa fa-print" title='Batch print QrCode'></i>
+           </button><br>
+           
+           <button style="cursor:pointer;" mat-button class="btn  btn-sm mb-1"  >
+            <input style="cursor:pointer;" type="checkbox"
+            (change)="onCheckBoxPrintAll($event, isPrintAll?true:false)"  />
+
+           </button>
+          <!-- </a> -->
+        </th>
+```
+
+```html
+ <tbody>
+      <tr *ngFor="let dataItem of QrcodeList" scope="row" align="center">
+        <td>{{dataItem.id}}</td>
+ 
+        <td>
+          <input style="cursor:pointer;" type="checkbox" [value]="dataItem.guId"
+            (change)="onCheckboxChange(dataItem.guId, dataItem.name, $event)"  />
+
+        </td>
+        
+        ....
+```
+````
+{% endcode %}
+
+{% code fullWidth="true" %}
+```
+// Select all button
 
   onCheckBoxPrintAll(e: any, isprint: any) {
     this.isPrintAll = !isprint;
@@ -48,6 +89,8 @@
     this.qrcodeService.setSelectedQrCodeList(this.selectedQrCodeArray);
   }
 
+// Select button
+
   onCheckboxChange(guiId: string, name: string, event: any) {
     const index = this.selectedQrCodeArray.findIndex((x) => x.guId === guiId);
     if (event.target.checked) {
@@ -65,5 +108,4 @@
   }
 
 ```
-````
 {% endcode %}
