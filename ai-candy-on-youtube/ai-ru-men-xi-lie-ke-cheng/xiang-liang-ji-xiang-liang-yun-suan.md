@@ -1,6 +1,16 @@
 # 0️ 向量及向量运算
 
+向量的基本运算：
 
+1. 相加（向量之和），向量相应坐标相加产生的新的向量为向量之和。
+2. 相减（向量之差），向量相应坐标相减产生的新向量为向量之差，由减数指向被减数。
+3. 标量乘法（scalar），向量的各坐标乘以相应的标量(scalar)后产生的新向量，方向不变。
+4. 长度(magnitude)，各坐标平方后求和再开平方所得的值即为向量的长度。
+5. 方向(direction)，可以被同一方向上的单位向量表示，寻找单位向量的过程称为标准化。
+6. 点积(dot product)，两个向量相对应坐标的乘积和，为一个数值。
+7. 平行向量，一个向量可以由另一个向量进行标量乘法得到，则互为平行向量。
+8. 正交向量，两个向量的点积为0则互为正交向量。
+9.
 
 <mark style="color:purple;">**向量的点乘**</mark>
 
@@ -50,4 +60,8 @@
 
 
 reference: \
-https://blog.csdn.net/qq\_27161673/article/details/53056999 https://blog.csdn.net/dcrmg/article/details/52416832\
+[https://blog.csdn.net/qq\_27161673/article/details/53056999\
+https://blog.csdn.net/dcrmg/article/details/52416832\
+https://www.cnblogs.com/zhixingzhong/p/7512565.html](https://blog.csdn.net/qq\_27161673/article/details/53056999https:/blog.csdn.net/dcrmg/article/details/52416832https:/www.cnblogs.com/zhixingzhong/p/7512565.html)
+
+\
