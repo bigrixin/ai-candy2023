@@ -83,6 +83,8 @@
     * [Angular oauth2 OIDC](programming/angular/angular-oauth2-oidc.md)
     * [Angular add header](programming/angular/angular-add-header.md)
   * [.NET Skills](programming/.net-skills/README.md)
+    * [Auto Mapping](programming/.net-skills/auto-mapping.md)
+    * [Startup setting](programming/.net-skills/startup-setting.md)
     * [Validation filter](programming/.net-skills/validation-filter.md)
     * [BaseController](programming/.net-skills/basecontroller.md)
     * [Group by many](programming/.net-skills/group-by-many.md)
