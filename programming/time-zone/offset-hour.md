@@ -49,7 +49,7 @@ TimeZoneService:
 AutoMapping:
 int offsetHours = _timeZoneService.GetAppSettingTimeZoneOffsetHours();
 
-.ForMember(dest => dest.WeighDate, opt => opt.MapFrom(src => String.Format("{0:dd/MM/yyyy}", src.WeighDateTime.HasValue ? src.WeighDateTime.Value.AddHours(offsetHours).ToLocalTime() : "none")))
+.ForMember(dest => dest.WeighDate, opt => opt.MapFrom(src => String.Format("{0:dd/MM/yyyy HH:mm:ss}", src.WeighDateTime.HasValue ? src.WeighDateTime.Value.AddHours(offsetHours).ToLocalTime() : "none")))
 
 ```
 {% endcode %}
