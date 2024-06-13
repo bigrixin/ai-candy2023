@@ -7,20 +7,20 @@ description: >-
 # Offset hour
 
 <pre data-full-width="true"><code><strong>// UI
-</strong><strong>        {
-</strong>      data: 'DateTime', render: function (data: any, type: any, row: any) {
-        return '&#x3C;span style="color:green">' +
-          formatDate(new Date(data), 'dd/MM/yyyy hh:mm:ss a', 'en-AU')
-      }
-    },
-    {
-      data: 'value', render: function (data: any, type: any, row: any) {
-        if (Number(data) != 0)
-          return '&#x3C;span style="color:purple; display: inline-block; float: right;">' + formatNumber(Number(data), 'en-AU', '1.2-2') + '&#x3C;/span>'
-        else
-          return ''
-      }
-    },
+</strong><strong>  
+</strong>data: 'DateTime', render: function (data: any, type: any, row: any) {
+  return '&#x3C;span style="color:green">' +
+    formatDate(new Date(data), 'dd/MM/yyyy hh:mm:ss a', 'en-AU')
+},
+
+{
+  data: 'value', render: function (data: any, type: any, row: any) {
+    if (Number(data) != 0)
+      return '&#x3C;span style="color:purple; display: inline-block; float: right;">' + formatNumber(Number(data), 'en-AU', '1.2-2') + '&#x3C;/span>'
+    else
+      return ''
+}
+  
 </code></pre>
 
 
