@@ -155,6 +155,7 @@
     * [Websocket-Server (SSL)](programming/video-stream-jsmpeg/websocket-server-ssl.md)
     * [Play RTSP video stream](programming/video-stream-jsmpeg/play-rtsp-video-stream.md)
   * [🕝 Time Zone](programming/time-zone/README.md)
+    * [Offset hour](programming/time-zone/offset-hour.md)
     * [Angular - Timezone selection](programming/time-zone/angular-timezone-selection.md)
     * [Angular - Convert UTC to local time](programming/time-zone/angular-convert-utc-to-local-time.md)
     * [C# Time Zone](programming/time-zone/c-time-zone.md)
