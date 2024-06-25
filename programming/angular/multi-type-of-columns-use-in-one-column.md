@@ -102,4 +102,19 @@ if (data.action == 'Edit') {
 ```
 {% endcode %}
 
-}
+{% code fullWidth="true" %}
+```typescript
+  async onSubmit(frm: FormGroup) {
+    let setting_value = '';
+    if (this.DisplayType == 'yesno')
+      setting_value = frm.value.yesno_value == true ? 'Yes' : 'No';
+    else if (this.DisplayType == 'dropdown')
+      setting_value = this.DropdownList[frm.value.dropdown_value].name;
+
+    frm.removeControl('yesno_value');
+    frm.removeControl('dropdown_value');
+
+    frm.value.settingvalue = setting_value;
+    this.submitClicked = true;
+```
+{% endcode %}
