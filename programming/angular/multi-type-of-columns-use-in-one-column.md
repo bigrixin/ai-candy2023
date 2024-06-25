@@ -105,7 +105,7 @@ if (data.action == 'Edit') {
 {% code fullWidth="true" %}
 ```typescript
   async onSubmit(frm: FormGroup) {
-    let setting_value = '';
+    let setting_value = frm.value.settingvalue ;
     if (this.DisplayType == 'yesno')
       setting_value = frm.value.yesno_value == true ? 'Yes' : 'No';
     else if (this.DisplayType == 'dropdown')
