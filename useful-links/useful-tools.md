@@ -18,6 +18,7 @@ description: '- 免费好用小程序'
 
 * **词源查询**：在线英文词源查询。 [词源在线](https://www.etymonline.com/cn)
 * **软件卸载**：卸载软件，干净利落。[Geek Uninstaller](https://geekuninstaller.com/)
+* **媒体下载**：视频，音频流下载，最大支持180分钟 [cabalt.tools](https://cobalt.tools/)&#x20;
 * **PDF编辑**：可以对PDF做任意画图，编辑，签名。[Drawboard PDF](https://www.microsoft.com/store/productId/9WZDNCRFHWQT)
 * **启动选项**：微软官方提供的[小工具](https://docs.microsoft.com/en-us/sysinternals/downloads/)。可查看，屏蔽Windows启动程序。[Autoruns](https://docs.microsoft.com/en-us/sysinternals/downloads/autoruns)
 * **GPU信息**：小工具可以查看视频卡及GPU的信息。[GPU-Z](https://www.techpowerup.com/download/techpowerup-gpu-z/)
