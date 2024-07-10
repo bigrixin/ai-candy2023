@@ -1,4 +1,4 @@
-# select onChange event
+# onChange Selection event
 
 {% code fullWidth="true" %}
 ```
