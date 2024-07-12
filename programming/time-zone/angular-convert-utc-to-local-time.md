@@ -1,4 +1,4 @@
-# Convert UTC to local time
+# Angular - Convert UTC to local time
 
 
 
@@ -7,6 +7,22 @@
 * [https://www.utctime.net/](https://www.utctime.net/)  (UCT time converter and <mark style="color:red;">Date Time Format List</mark>)
 
 
+
+{% code fullWidth="true" %}
+```
+// This function is working
+   function convertUTCToLocalTime(utcTime:any)
+    {
+      let dateTime =new Date(utcTime);
+      let offsetMinutes = dateTime.getTimezoneOffset();                   //returns the difference in minutes.
+      let numberOfMilliseconds = dateTime.getTime();                      //returns the number of milliseconds  since January 1, 1970 00:00:00.
+      let offsetMilliseconds = - offsetMinutes  * 60 * 1000;
+      dateTime.setTime(numberOfMilliseconds + offsetMilliseconds);
+      let localTime = dateTime
+      return localTime;
+    }
+```
+{% endcode %}
 
 {% code fullWidth="true" %}
 ```

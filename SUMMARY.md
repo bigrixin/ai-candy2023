@@ -32,7 +32,6 @@
   * [3️⃣ AI Websites](ai-ren-gong-zhi-neng/3.-ai-websites.md)
 * [🪤 Programming](programming/README.md)
   * [Angular](programming/angular/README.md)
-    * [Convert UTC time to Local time](programming/angular/convert-utc-time-to-local-time.md)
     * [Object array sort and sum](programming/angular/object-array-sort-and-sum.md)
     * [Multi-type of columns use in one column](programming/angular/multi-type-of-columns-use-in-one-column.md)
     * [Select button for datatables](programming/angular/select-button-for-datatables.md)
