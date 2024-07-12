@@ -4,7 +4,7 @@ description: >-
   convert
 ---
 
-# 🧭 Add offset hours for local UI and report
+# 🕑 Add offset hours for local UI and report
 
 <pre data-full-width="true"><code><strong>// UI
 </strong><strong>  
