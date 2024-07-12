@@ -156,6 +156,7 @@
     * [Client (SSL)](programming/video-stream-jsmpeg/client-ssl.md)
     * [Websocket-Server (SSL)](programming/video-stream-jsmpeg/websocket-server-ssl.md)
     * [Play RTSP video stream](programming/video-stream-jsmpeg/play-rtsp-video-stream.md)
+  * [⏰ Time Zone](programming/time-zone.md)
   * [⏰ Get data by local time (UI, API)](programming/get-data-by-local-time-ui-api/README.md)
     * [🧭 Add offset hours for local UI and report](programming/get-data-by-local-time-ui-api/add-offset-hours-for-local-ui-and-report.md)
     * [Angular - Timezone selection](programming/get-data-by-local-time-ui-api/angular-timezone-selection.md)
