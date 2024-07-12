@@ -4,7 +4,7 @@ description: >-
   appsetting.json
 ---
 
-# C# Time Zone
+# 🕕 C# Time Zone
 
 ### **TimeZoneInfo cities**
 
