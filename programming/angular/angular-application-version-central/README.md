@@ -1,6 +1,6 @@
 # Angular application version central
 
-<pre><code>1. Add "prebuild" and "build" in package.json
+<pre data-full-width="true"><code>1. Add "prebuild" and "build" in package.json
 
   {
     "name": "application",
