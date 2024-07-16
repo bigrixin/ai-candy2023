@@ -1,18 +1,23 @@
 # Update from v13 to v15
 
+{% code fullWidth="true" %}
 ```
 // Check the Package version
 
     npm outdated
 ```
+{% endcode %}
 
+{% code fullWidth="true" %}
 ```
 // Update Angular from 13 to 15.2.3
 
 	1. ng update @angular/core@14 @angular/cli@14 --allow-dirty --force
 	2. ng update @angular/core@15 @angular/cli@15 --allow-dirty --force
 ```
+{% endcode %}
 
+{% code fullWidth="true" %}
 ```
 // Update CoreUI from 4.0.5 to 4.3.6
    ng update @coreui/coreui@4.2.6 @coreui/icons-angular@4.3.16 @coreui/icons@3.0.1 @coreui/angular-chartjs@4.3.16 --allow-dirty --force
@@ -33,7 +38,9 @@
       }
 
 ```
+{% endcode %}
 
+{% code fullWidth="true" %}
 ```
 // Update angular/material to the new version 
 
@@ -60,21 +67,27 @@
 
 
 ```
+{% endcode %}
 
+{% code fullWidth="true" %}
 ```
 // Update others
    ng update @types/jasmine@4.3.1 @types/node@18.15.5 jasmine-core@4.5.0 --allow-dirty --force 
    ng update karma-coverage@2.2.0 karma-jasmine-html-reporter@2.0.0 karma-jasmine@5.1.0 karma@6.4.1 --allow-dirty --force
    ng update rxjs@7.8.0 typescript@4.9.5 zone.js@0.12.0 ngx-toastr@16.1.0  --allow-dirty --force
 ```
+{% endcode %}
 
+{% code fullWidth="true" %}
 ```
 // Install angularx-qrcode if need it
 
  npm install angularx-qrcode@15.0.1
  npm install ngx-dropzone@3.1.0
 ```
+{% endcode %}
 
+{% code fullWidth="true" %}
 ```
 // Not need to update
 	==   chart.js@3.9.1                 ==	
@@ -83,3 +96,4 @@
 	==   tslib@2.5.0                    ==	
 // typescript@4.9.5      (*** do not update to @5.0 ***)
 ```
+{% endcode %}
