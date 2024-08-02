@@ -79,6 +79,7 @@
     * [Angular add reCAPTCHA v3 (Google)](programming/angular/angular-add-recaptcha-v3-google.md)
     * [Angular application version central](programming/angular/angular-application-version-central/README.md)
       * [Update from v13 to v15](programming/angular/angular-application-version-central/update-from-v13-to-v15.md)
+      * [Update from v15 to v18](programming/angular/angular-application-version-central/update-from-v15-to-v18.md)
     * [Face detection](programming/angular/face-detection/README.md)
       * [Face-api.js](programming/angular/face-detection/face-api.js.md)
     * [Angular, Node version compatibility matrix](programming/angular/angular-node-version-compatibility-matrix.md)
