@@ -75,7 +75,7 @@
     * [Change chart.js chart type](programming/angular/change-chart.js-chart-type.md)
     * [Angular UI - .NET API - .NET Auth](programming/angular/angular-ui-.net-api-.net-auth.md)
     * [Angular - .NET API](programming/angular/angular-.net-api.md)
-    * [\*ngIf else](programming/angular/ngif-else.md)
+    * [\*ngIf else &&  change to @if](programming/angular/ngif-else-and-and-change-to-if.md)
     * [Angular add reCAPTCHA v3 (Google)](programming/angular/angular-add-recaptcha-v3-google.md)
     * [Angular application version central](programming/angular/angular-application-version-central/README.md)
       * [Update from v13 to v15](programming/angular/angular-application-version-central/update-from-v13-to-v15.md)
