@@ -4,6 +4,7 @@ Datepicker using Jquery
 
 #### &#x20;View
 
+{% code fullWidth="true" %}
 ```
  <div class="form-group">
 	@Html.LabelFor(model => model.StartAt, htmlAttributes: new { @class = "control-label col-md-2" })
@@ -15,11 +16,13 @@ Datepicker using Jquery
    </div>
  </div>
 ```
+{% endcode %}
 
 
 
 #### Javascript
 
+{% code fullWidth="true" %}
 ```
 jQuery(function ($) {
 	// format date
@@ -42,21 +45,26 @@ jQuery(function ($) {
 	});
 });
 ```
+{% endcode %}
 
 
 
 #### Model
 
+{% code fullWidth="true" %}
 ```
 [DisplayFormat(ApplyFormatInEditMode = true, DataFormatString = "{0:dd/MMM/yyyy}")] 
 public DateTime? ExpiredAt { get; set; }
 ```
+{% endcode %}
 
 #### Web.config
 
+{% code fullWidth="true" %}
 ```
 <system.web>
    <globalization culture="en-AU" uiCulture="en-AU" /> 
 <system.web>
 ```
+{% endcode %}
 
