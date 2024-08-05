@@ -6,4 +6,4 @@
 
 * [20天吃透Pytorch](https://www.pytorchmaster.com/)
 * [深入浅出PyTorch](https://datawhalechina.github.io/thorough-pytorch/index.html)
-*
+* [动手学深度学习](https://zh.d2l.ai/index.html)
