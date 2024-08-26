@@ -11,7 +11,7 @@ description: '- 免费好用小程序'
 * **视频编辑:**  开源免费，多种功能视频编辑。[Shotcut](https://shotcut.org/),   CapCut ([剪映国际版](https://www.capcut.com/))
 * **录制屏幕**：免费可用大部分功能，局屏，系统声音，水印，定时。[EV录屏](https://www.ieway.cn/)
 * **桌面画笔**：可各种图形，颜色，放大的桌面画笔。[Pointofix](http://www.pointofix.de/), [Zoomlt](https://docs.microsoft.com/en-us/sysinternals/downloads/zoomit)
-* **改色工具**：[Sordu](https://www.sordum.org/) 网上里有一款工具，可以任意[改变文件夹图标颜色](https://www.sordum.org/10124/folder-painter-v1-3/)&#x20;
+* **目录彩色**：[Sordu](https://www.sordum.org/) 网上里有一款工具，可以任意[改变文件夹图标颜色](https://www.sordum.org/10124/folder-painter-v1-3/) Folder Painter
 * **取色工具**：[PowerToys](https://learn.microsoft.com/en-us/windows/powertoys/install) 是一款工具集合，包括屏幕颜色提取，鼠标焦点，定时提醒等。
 *   **屏幕截图**：[Snipaste](https://www.snipaste.com/download.html) 屏幕截图，颜色提取等，功能强大，可以自动识别不同窗口。
 
