@@ -77,11 +77,16 @@ description: '- YouTube 视频 相关文本内容'
 	
            2. Miniconda
 	       https://docs.anaconda.com/free/miniconda/
+	       
 	       -- conda install -y jupyter  (安装Jupyter notebook)
   	                      
         ------------------------------------------------------------------------------------------------------------
 ```
 {% endcode %}
+
+{% hint style="danger" %}
+anaconda or miniconda 安装目录名称，不能包含空格或其他特殊字符。
+{% endhint %}
 
 {% code fullWidth="true" %}
 ```
