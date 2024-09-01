@@ -13,7 +13,7 @@ icon: mobile-screen-button
 1. 下载最新版adb (v35)
 2. 解压缩， 
 
-//查看与PC 链接的手机设备
+//查看与PC 链接的手机设备 (需要在PC上安装手机驱动）
 adb devices
 
 // 查看包名
