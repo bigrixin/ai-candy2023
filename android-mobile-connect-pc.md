@@ -104,3 +104,14 @@ com.android.settings.WirelessSettings 无线和网络设置
 著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
 ```
 {% endcode %}
+
+{% code fullWidth="true" %}
+```
+// 若无法进入开发模式
+
+adb shell settings put secure user_setup_complete 1
+adb shell settings put global device_provisioned 1
+
+
+```
+{% endcode %}
