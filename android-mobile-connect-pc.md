@@ -49,3 +49,11 @@ adb shell am start -n com.topjohnwu.magisk/com.topjohnwu.magisk.ui.surequest.SuR
 ```
 {% endcode %}
 
+
+
+{% code fullWidth="true" %}
+```
+// 打开设置主界面
+adb shell am start com.android.settings/com.android.settings.Settings
+```
+{% endcode %}
