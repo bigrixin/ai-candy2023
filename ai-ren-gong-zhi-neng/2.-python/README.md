@@ -18,6 +18,7 @@ coverY: 0
 * [`Python Natural Language ToolKit (NLTK)`](https://www.nltk.org/index.html)
 * :thumbsup:[`Runoob - Python 学习`](https://www.runoob.com/python/python-reg-expressions.html)`(正则表达式)`
 * [`Python 学习园`](http://liao.cpython.org/index.html)
+* [动手学深度学习](https://github.com/ShusenTang/Dive-into-DL-PyTorch?spm=a2c6h.12873639.article-detail.7.78f96a36nL25Ij) + PyTorch
 * [Datacamp - DataFrame](https://www.datacamp.com/community/tutorials/pandas-tutorial-dataframe-python#question1)
 * [Python 数据分析](https://openbiox.github.io/py4ds-CN/visulization.html)
 * [Kaggle](https://www.kaggle.com/)
