@@ -30,4 +30,5 @@ coverY: 0
 * [PyTorch-24h 01\_PyTorch深度学习流程](https://mp.weixin.qq.com/s/sRO9K-HkTmxuJY7fb5mlBg)
 * [Python 数据之道](http://liyangbit.com/)  - 知识手册，数学图形，视频制作工具 _<mark style="color:orange;">**Hot**</mark>_
 * [Python 项目工程结构](https://pyloong.github.io/pythonic-project-guidelines/guidelines/project\_management/project\_structure/) _<mark style="color:orange;">**Hot**</mark>_
+* _<mark style="color:orange;">**Ebook -**</mark>_ 计算机，语言，算法 等，大量电子书
 
