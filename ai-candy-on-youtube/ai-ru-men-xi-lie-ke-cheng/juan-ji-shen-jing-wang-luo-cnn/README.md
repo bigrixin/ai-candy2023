@@ -1,6 +1,6 @@
 # 2️ 卷积神经网络（CNN）
 
-<figure><img src="../../.gitbook/assets/CNN-1.gif" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/CNN-1.gif" alt=""><figcaption></figcaption></figure>
 
 {% code fullWidth="true" %}
 ```
@@ -27,16 +27,16 @@ Class Net (nn.Module):
 * 卷积过程：如下图，输入为5x5 蓝色矩阵， 卷积核或称为<mark style="color:orange;">滤波器</mark>（深色）为3x3。
 * 将卷积核矩阵对应到输入矩阵左上角3x3的区域（感受野）。
 
-<figure><img src="../../.gitbook/assets/CNN-3.gif" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/CNN-3.gif" alt=""><figcaption></figcaption></figure>
 
 * 将卷积核矩阵中的每个值分别与输入矩阵内的值相乘，再叠加，最后得出1个值，作为输出值。
 * 移动卷积核1步（步长）
 * 再按上述方法，点积求和，作为第二个值，以此类推。
 * 步长为1，卷积后的矩阵边长尺寸：输入矩阵边长-卷积核边长+1   （5-3+1）
 
-<figure><img src="../../.gitbook/assets/image (22).png" alt=""><figcaption><p>卷积核</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (22).png" alt=""><figcaption><p>卷积核</p></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/CNN-2.gif" alt=""><figcaption><p>点积求和</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/CNN-2.gif" alt=""><figcaption><p>点积求和</p></figcaption></figure>
 
 #### 加偏置 bias
 
@@ -47,7 +47,7 @@ Class Net (nn.Module):
 * 将小于0的置为0
 * 生成新的 Feature map
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption><p>ReLu Function</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption><p>ReLu Function</p></figcaption></figure>
 
 #### 池化层 Pooling：降低维度（参数）
 
@@ -55,15 +55,15 @@ Class Net (nn.Module):
 * Mean Pooling：平均值
 * Sum pooling：取和
 
-<figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 #### 展平
 
 * Flattening, 转成1维
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption><p>flattening</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1).png" alt=""><figcaption><p>flattening</p></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (5).png" alt=""><figcaption><p>Convolution structure</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (5).png" alt=""><figcaption><p>Convolution structure</p></figcaption></figure>
 
 ### <mark style="color:blue;">全链接（神经网络部分）</mark>
 
@@ -71,7 +71,7 @@ Class Net (nn.Module):
 * 隐藏层，有ReLu
 * 输出层
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
 **激活函数（非线性）**
 
