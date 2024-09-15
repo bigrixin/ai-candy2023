@@ -12,7 +12,10 @@
 
 
 
-
+<mark style="color:purple;">**在线工具**</mark>
 
 * [ ] [在线矩阵计算](https://matrixcalc.org/zh-TW/)
-* [ ] [卷积池化计算](http://www.sqflash.com/cal.html)
+* [ ] [在线卷积计算1](http://www.sqflash.com/cal.html)
+* [ ] [在线卷积计算2](https://asiltureli.github.io/Convolution-Layer-Calculator/)
+* [ ] [2d 卷积，池化计算](https://asiltureli.github.io/Convolution-Layer-Calculator/)
+*
