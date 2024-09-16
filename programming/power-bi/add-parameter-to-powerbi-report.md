@@ -1,7 +1,7 @@
 # Add parameter to PowerBI report
 
 ```
-// Add parameters to PowerBI report:
+// Add parameters to PowerBI report: (**** This part is not necessary ****)
 
 1. open PowerBI report .pbix uses PowerBI Desktop.
 2. go to Edit query
@@ -12,13 +12,20 @@
 7. may change the poperies (Name)
 ```
 
-```
+{% code fullWidth="true" %}
+````
 // Add parameters in Url for PowerBI report query filter:
 
 The syntax is: ?filter=<Table name>/<Column name> eq <'value'>
 
+  ***************（very important) *************
  --  Table and column names Case sensitive 
-
+ ***************（very important) *************
+ 
+```typescript
+  customerFilter1: "?filter=stock/CUSTOMER eq '",       ///stock: table name, CUSTOMER: Column name
+  customerFilter2: "' and stock/CUSTOMER eq '",
+```
 
 1. One value query via URL, append below code in URL:
 
@@ -36,4 +43,5 @@ The syntax is: ?filter=<Table name>/<Column name> eq <'value'>
    
    
 
-```
+````
+{% endcode %}
