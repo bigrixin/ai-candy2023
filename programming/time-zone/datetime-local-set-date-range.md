@@ -1,3 +1,7 @@
+---
+icon: gauge-simple-min
+---
+
 # datetime-local set date range
 
 {% code fullWidth="true" %}
