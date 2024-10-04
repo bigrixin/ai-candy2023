@@ -9,7 +9,7 @@ description: Implementing PyTorch or PyCharm with VS code in virtual python envi
 1. cmd
 2. nvidia-smi
 
-<figure><img src="../../.gitbook/assets/image (19).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (19).png" alt=""><figcaption></figcaption></figure>
 
 ## VS Code
 
@@ -20,7 +20,7 @@ description: Implementing PyTorch or PyCharm with VS code in virtual python envi
 5. Python: Select Interpreter  (Select virtual python environment)
 6. Select pytorch (Python 3.11.9)
 
-<figure><img src="../../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
 
 ## PyCharm
 
@@ -31,7 +31,7 @@ description: Implementing PyTorch or PyCharm with VS code in virtual python envi
 * Select Conda Type
 * Select Environment
 
-<figure><img src="../../.gitbook/assets/image (18).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (18).png" alt=""><figcaption></figcaption></figure>
 
 ## Check version and GPU (<mark style="color:red;">batch file</mark>)
 
