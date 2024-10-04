@@ -9,6 +9,8 @@ Set line length in autopep8
 
 extensions->autopep8>>extension settings
 
-Autopep8: Args Add Item: --max-line-length=180&#x20;
+Autopep8: Args&#x20;
+
+Add Item: <mark style="color:orange;">--max-line-length=180</mark>&#x20;
 
 OK
