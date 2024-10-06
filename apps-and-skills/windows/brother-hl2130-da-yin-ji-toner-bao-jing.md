@@ -1,3 +1,7 @@
+---
+icon: print
+---
+
 # Brother HL-2130 打印机 Toner 报警
 
 Toner 黄色灯闪烁，是因为厂家防止自行添加墨粉。设置的限制打印次数。
