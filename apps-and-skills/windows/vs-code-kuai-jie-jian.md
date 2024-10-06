@@ -1,3 +1,7 @@
+---
+icon: keyboard
+---
+
 # VS Code 快捷键
 
 Ctrl + K + 0 : 折叠所有函数块， Ctrl + Shift + \[  : 折叠当前位置的块

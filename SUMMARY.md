@@ -176,6 +176,7 @@
 * [>>>>>>>>>>>>>>>>>>>>>>>>>>>>](greater-than-greater-than-greater-than-greater-than-greater-than-greater-than-greater-than-greater-t.md)
 * [🪜 Apps and Skills](\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_.md)
   * [1️ Windows system app skills](apps-and-skills/windows/README.md)
+    * [Brother HL-2130 打印机 Toner 报警](apps-and-skills/windows/brother-hl2130-da-yin-ji-toner-bao-jing.md)
     * [VS Code 快捷键](apps-and-skills/windows/vs-code-kuai-jie-jian.md)
     * [Check SHA256 on windows](apps-and-skills/windows/check-sha256-on-windows.md)
     * [blob 视频下载](apps-and-skills/windows/blob-shi-pin-xia-zai.md)
