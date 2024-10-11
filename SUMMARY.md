@@ -35,6 +35,7 @@
   * [3️⃣ AI Websites](ai-ren-gong-zhi-neng/3.-ai-websites.md)
 * [🪤 Programming](programming/README.md)
   * [Angular](programming/angular/README.md)
+    * [sticky \<th>  and \<td> content](programming/angular/sticky-less-than-th-greater-than-and-less-than-td-greater-than-content.md)
     * [Filter booked time](programming/angular/filter-booked-time.md)
     * [Dropdown time selection with interval](programming/angular/dropdown-time-selection-with-interval.md)
     * [Angular date online test](programming/angular/angular-date-online-test.md)
