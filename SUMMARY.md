@@ -34,6 +34,8 @@
     * [修改Jupyter Notebook 默认工作目录](ai-ren-gong-zhi-neng/2.-python/jupyter-directory.md)
   * [3️⃣ AI Websites](ai-ren-gong-zhi-neng/3.-ai-websites.md)
 * [🪤 Programming](programming/README.md)
+  * [SQL](programming/sql/README.md)
+    * [Delete data and reset auto-increment ID](programming/sql/delete-data-and-reset-auto-increment-id.md)
   * [Angular](programming/angular/README.md)
     * [sticky \<th>  and \<td> content](programming/angular/sticky-less-than-th-greater-than-and-less-than-td-greater-than-content.md)
     * [Filter booked time](programming/angular/filter-booked-time.md)
