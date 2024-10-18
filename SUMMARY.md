@@ -99,6 +99,7 @@
     * [Angular add header](programming/angular/angular-add-header.md)
   * [.NET Skills](programming/.net-skills/README.md)
     * [Auto Mapping](programming/.net-skills/auto-mapping/README.md)
+      * [Ignore Nesting](programming/.net-skills/auto-mapping/ignore-nesting.md)
       * [Startup setting](programming/.net-skills/auto-mapping/startup-setting.md)
       * [Datetime processing in AutoMapping](programming/.net-skills/auto-mapping/datetime-processing-in-automapping.md)
       * [AutoMapper example](programming/.net-skills/auto-mapping/automapper-example.md)
