@@ -98,6 +98,7 @@
     * [Angular oauth2 OIDC](programming/angular/angular-oauth2-oidc.md)
     * [Angular add header](programming/angular/angular-add-header.md)
   * [.NET Skills](programming/.net-skills/README.md)
+    * [Add ID manually](programming/.net-skills/add-id-manually.md)
     * [Auto Mapping](programming/.net-skills/auto-mapping/README.md)
       * [Ignore Nesting](programming/.net-skills/auto-mapping/ignore-nesting.md)
       * [Startup setting](programming/.net-skills/auto-mapping/startup-setting.md)
