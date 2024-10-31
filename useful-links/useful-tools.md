@@ -23,10 +23,11 @@ description: '- 免费好用小程序'
 * **启动选项**：微软官方提供的[小工具](https://docs.microsoft.com/en-us/sysinternals/downloads/)。可查看，屏蔽Windows启动程序。[Autoruns](https://docs.microsoft.com/en-us/sysinternals/downloads/autoruns)
 * **GPU信息**：小工具可以查看视频卡及GPU的信息。[GPU-Z](https://www.techpowerup.com/download/techpowerup-gpu-z/)
 * **远程操作**：局域网远程操作工具VCN
-* **转换工具**:  密码生成，解码，格式化，很多转码工具合成，数据库连接操作等。开源。[SmartSQL](https://github.com/TeslaFly01/SmartSqlT)
+* **转换工具**：密码生成，解码，格式化，很多转码工具合成，数据库连接操作等。开源。[SmartSQL](https://github.com/TeslaFly01/SmartSqlT)
 * **端口测试**：RS232, RS485, UDP/IP, TCP/IP 端口通信测试 [Hercules SETUP utility](https://www.hw-group.com/software/hercules-setup-utility)
-* **Toolbox**: [Windows repair toolbox](https://windows-repair-toolbox.com/), windows 系统工具集合。
-* **PC管理:** [微软 PC Manager](https://pcmanager.microsoft.com/)
-* **SQL工具**:  免费 SQL工具 [SmartSQL](https://gitee.com/dotnetchina/SmartSQL/releases)
-* **NAS OS**:   建立私有云，免费操作系统 [Rockstor](https://rockstor.com/dls.html)
+* **Toolbox**：[Windows repair toolbox](https://windows-repair-toolbox.com/), windows 系统工具集合。
+* **PC管理**：[微软 PC Manager](https://pcmanager.microsoft.com/)
+* **SQL工具**：免费 SQL工具 [SmartSQL](https://gitee.com/dotnetchina/SmartSQL/releases)
+* **NAS OS**：建立私有云，免费操作系统 [Rockstor](https://rockstor.com/dls.html)
 * **中文字体**：免费[字体下载](https://fontmeme.com/ziti/free-fonts/),  字体[下载网](https://www.yifuhe.com/list/4.htm)
+* **音乐舞曲**：[在线听](http://991628.com/)，下载mp3
