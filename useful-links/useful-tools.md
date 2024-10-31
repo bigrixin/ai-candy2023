@@ -30,4 +30,4 @@ description: '- 免费好用小程序'
 * **SQL工具**：免费 SQL工具 [SmartSQL](https://gitee.com/dotnetchina/SmartSQL/releases)
 * **NAS OS**：建立私有云，免费操作系统 [Rockstor](https://rockstor.com/dls.html)
 * **中文字体**：免费[字体下载](https://fontmeme.com/ziti/free-fonts/),  字体[下载网](https://www.yifuhe.com/list/4.htm)
-* **音乐舞曲**：[在线听](http://991628.com/)，下载mp3
+* **音乐舞曲**：[在线听](http://991628.com/)，[歌曲宝 下载mp3 ](https://www.gequbao.com/)&#x20;
