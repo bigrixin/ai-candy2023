@@ -210,7 +210,7 @@
 * [💎 USEFUL LINKS](useful-links/README.md)
   * [1️ Coding websites](useful-links/coding-websites/README.md)
     * [Website links](useful-links/coding-websites/website-links.md)
-  * [2️ Windows 平台下有用的工具](useful-links/useful-tools.md)
+  * [2️ Windows 平台工具，网站](useful-links/useful-tools.md)
   * [3️ PotPlayer 设置](useful-links/potplayer-she-zhi.md)
 * [>>>>>>>>>>>>>>>>>>>>>>>>>>>>](greater-than-greater-than-greater-than-greater-than-greater-than-greater-than-greater-than-greater-1.md)
 * [🚩 Research >>EEG](research-greater-than-greater-than-eeg/README.md)
