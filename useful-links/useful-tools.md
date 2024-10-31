@@ -2,7 +2,7 @@
 description: '- 免费好用小程序'
 ---
 
-# 2️ Windows 平台下有用的工具
+# 2️ Windows 平台工具，网站
 
 * **脑图制作**：免费在线使用，功能基本不受限制，模板、图标。  [GitMind ](https://gitmind.com/)\
 
@@ -31,3 +31,4 @@ description: '- 免费好用小程序'
 * **NAS OS**：建立私有云，免费操作系统 [Rockstor](https://rockstor.com/dls.html)
 * **中文字体**：免费[字体下载](https://fontmeme.com/ziti/free-fonts/),  字体[下载网](https://www.yifuhe.com/list/4.htm)
 * **音乐舞曲**：[在线听](http://991628.com/)，[歌曲宝 下载mp3 ](https://www.gequbao.com/)&#x20;
+* **在线工具**：包括数据转换，加密，解密等[在线工具箱](https://tool.exmay.com/tool.html#/tool/hash?category=encryption)
