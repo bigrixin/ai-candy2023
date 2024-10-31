@@ -22,7 +22,7 @@ description: '- 免费好用小程序'
 * **PDF编辑**：可以对PDF做任意画图，编辑，签名。[Drawboard PDF](https://www.microsoft.com/store/productId/9WZDNCRFHWQT)
 * **启动选项**：微软官方提供的[小工具](https://docs.microsoft.com/en-us/sysinternals/downloads/)。可查看，屏蔽Windows启动程序。[Autoruns](https://docs.microsoft.com/en-us/sysinternals/downloads/autoruns)
 * **GPU信息**：小工具可以查看视频卡及GPU的信息。[GPU-Z](https://www.techpowerup.com/download/techpowerup-gpu-z/)
-* **远程操作**：局域网远程操作工具VCN
+* **远程操作**：局域网远程操作工具 [VNC](https://uvnc.com/)
 * **转换工具**：密码生成，解码，格式化，很多转码工具合成，数据库连接操作等。开源。[SmartSQL](https://github.com/TeslaFly01/SmartSqlT)
 * **端口测试**：RS232, RS485, UDP/IP, TCP/IP 端口通信测试 [Hercules SETUP utility](https://www.hw-group.com/software/hercules-setup-utility)
 * **Toolbox**：[Windows repair toolbox](https://windows-repair-toolbox.com/), windows 系统工具集合。
