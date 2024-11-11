@@ -37,6 +37,7 @@
   * [SQL](programming/sql/README.md)
     * [Delete data and reset auto-increment ID](programming/sql/delete-data-and-reset-auto-increment-id.md)
   * [Angular](programming/angular/README.md)
+    * [Datatable setting](programming/angular/datatable-setting.md)
     * [Date time format](programming/angular/date-time-format.md)
     * [sticky \<th>  and \<td> content](programming/angular/sticky-less-than-th-greater-than-and-less-than-td-greater-than-content.md)
     * [Filter booked time](programming/angular/filter-booked-time.md)
