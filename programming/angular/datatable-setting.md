@@ -199,14 +199,6 @@
         }
       },
       {
-        data: 'weight1P2', render: function (data: any, type: any, row: any) {
-          if (data != null && data != 0)
-            return '<span class="text-success"  style="float: right;">' + formatNumber(Number(row.weight1P2), locale, '1.2-2') + '</span>';
-          else
-            return ''
-        }
-      },
-      {
         data: 'timestamp2', render: function (data: any, type: any, row: any) {
           if (data != null)
             return '<span  class="text-info">' +
@@ -229,27 +221,12 @@
           else return ''
         }
       },
-      {
-        data: 'weight2P2', render: function (data: any, type: any, row: any) {
-          if (data != null && data != 0)
-            return '<span class="text-info" style="float: right;">' + formatNumber(Number(row.weight2P2), locale, '1.2-2') + '</span>';
-          return ''
-        }
-      },
-      { data: 'source' },
-
       { data: 'bookingNo' },
-      { data: 'orderNo' },
-      { data: 'productCatagory' },
-
       {
         data: 'status', render: function (data: any, type: any, row: any) {
           return '<span class="text-info" style="text-align: center">' + data + '</span>';
         }
       },
-      { data: 'permitNo' },
-      { data: 'manualEntryDate' },
-      { data: 'notes' },
       ],
       rowCallback: (row: Node, data: any[] | Object, index: number) => {
         const self = this;
@@ -284,6 +261,15 @@
     }
     ```
     {% endcode %}
+*   sticky column
 
-
+    ```scss
+    .stickyColumn {
+      position: sticky !important;
+      left: 0 !important;
+      background-color: rgb(215, 219, 214);
+      // overflow: hidden;
+      z-index: 1;
+    }
+    ```
 
