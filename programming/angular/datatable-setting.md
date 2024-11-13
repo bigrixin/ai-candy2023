@@ -1,6 +1,24 @@
 # Datatable setting
 
-*   Table line height\
+*   Column display using ajax\
+
+
+    {% code fullWidth="true" %}
+    ```
+    Data with two decimal places and align right:
+       return '<span  class="text-info" style="float: right;">' + formatNumber(Number(row.weight2P1), locale, '1.2-2') + '</span>';
+
+    Data align: center (div)
+       return '<div class="text-success" style="text-align: center;"> Yes</div>';
+
+    Datetime:
+       return '<span  class="text-success" >'+ formatDate(new Date(data), 'dd/MM/yyyy hh:mm:ss a', 'en-AU')
+    ```
+    {% endcode %}
+
+
+
+*   Table line-height\
 
 
     {% code fullWidth="true" %}
