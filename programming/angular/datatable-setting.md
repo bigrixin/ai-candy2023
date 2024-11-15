@@ -1,23 +1,80 @@
 # Datatable setting
 
-*   Column display using ajax\
+* Column display using ajax
+
+{% code fullWidth="true" %}
+```
+Data with two decimal places and align right:
+   return '<span  class="text-info" style="float: right;">' + formatNumber(Number(row.weight2P1), locale, '1.2-2') + '</span>';
+
+Data align: center (div)
+   return '<div class="text-success" style="text-align: center;"> Yes</div>';
+
+Datetime:
+   return '<span  class="text-success" >'+ formatDate(new Date(data), 'dd/MM/yyyy hh:mm:ss a', 'en-AU'
+input.ng-invalid.ng-touched {
+  border: rgb(233, 168, 168) 1px solid;
+  box-shadow: 0px 0px 6px  #9191ee;
+}
 
 
-    {% code fullWidth="true" %}
-    ```
-    Data with two decimal places and align right:
-       return '<span  class="text-info" style="float: right;">' + formatNumber(Number(row.weight2P1), locale, '1.2-2') + '</span>';
-
-    Data align: center (div)
-       return '<div class="text-success" style="text-align: center;"> Yes</div>';
-
-    Datetime:
-       return '<span  class="text-success" >'+ formatDate(new Date(data), 'dd/MM/yyyy hh:mm:ss a', 'en-AU')
-    ```
-    {% endcode %}
+```
+{% endcode %}
 
 
 
+* input colour, field focus color
+
+```
+
+input.ng-invalid.ng-touched {
+  border: rgb(233, 168, 168) 1px solid;
+  box-shadow: 0px 0px 6px  #9191ee;
+}
+
+```
+
+* <pre><code><strong>/input, select field focus colour
+  </strong>-----------------------------------
+      datatables.net@2.1.6
+  -----------------------------------
+  .dt-container .dt-length {
+    select:focus {
+      outline: none !important;
+      border: 1px solid rgb(213, 213, 245);
+      box-shadow: 0px 0px 6px  #9191ee;
+    }
+  }
+
+  .dt-container .dt-search {
+    input:focus {
+      outline: none !important;
+      border: 1px solid rgb(213, 213, 245);
+      box-shadow: 0px 0px 6px  #9191ee;
+    }
+  }
+
+  -----------------------------
+    datatables.net@1.13.4
+  -----------------------------
+
+  .dataTables_length {
+    select:focus {
+      outline: none !important;
+      border: 1px solid rgb(213, 213, 245);
+      box-shadow: 0px 0px 6px  #9191ee;
+    }
+  }
+
+  .dataTables_filter {
+    input:focus {
+      outline: none !important;
+      border: 1px solid rgb(213, 213, 245);
+      box-shadow: 0px 0px 6px  #9191ee;
+    }
+  }
+
+  </code></pre>
 *   Table line-height\
 
 
