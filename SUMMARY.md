@@ -37,7 +37,7 @@
   * [SQL](programming/sql/README.md)
     * [Delete data and reset auto-increment ID](programming/sql/delete-data-and-reset-auto-increment-id.md)
   * [Angular](programming/angular/README.md)
-    * [Date field](programming/angular/date-field.md)
+    * [Date, Time field](programming/angular/date-time-field.md)
     * [VS Code: Auto add missing imports when save](programming/angular/vs-code-auto-add-missing-imports-when-save.md)
     * [Datatable setting](programming/angular/datatable-setting.md)
     * [Date time format](programming/angular/date-time-format.md)

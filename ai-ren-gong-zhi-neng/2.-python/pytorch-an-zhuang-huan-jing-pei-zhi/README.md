@@ -105,7 +105,7 @@ Method 2: Run Anaconda Prompt (Anaconda3) -- entry command, \
 &#x20;                 then run jupyterlab.bat\
 \
 **jupyterlab.bat:**\
-_D:\ProgramData\Anaconda3\python.exe d:\ProgramData\Anaconda3\cwp.py d:\ProgramData\Anaconda3 d:\ProgramData\Anaconda3\python.exe d:\ProgramData\Anaconda3\Scripts\jupyter-lab-script.py "%USERPROFILE%/"_
+&#xNAN;_&#x44;:\ProgramData\Anaconda3\python.exe d:\ProgramData\Anaconda3\cwp.py d:\ProgramData\Anaconda3 d:\ProgramData\Anaconda3\python.exe d:\ProgramData\Anaconda3\Scripts\jupyter-lab-script.py "%USERPROFILE%/"_
 {% endhint %}
 
 > **Install pytorch genmetric**\

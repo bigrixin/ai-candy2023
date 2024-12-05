@@ -37,15 +37,15 @@ EEG 电极帽的通道数一般按含电极数量多少分为：8，16，32，64
 
 &#x20;**10-10及10-5系统**&#x20;
 
-当使⽤更多电极记录 EEG信号时，使⽤10% 分区添加额外的电极，填充现有 10-20 系统之间的中间位置。这种新的电极命名系统更加复杂，从⽽产⽣了修正后的组合命名法**(MCN)**。该 MCN 系统对左半球使⽤ 1、3、5、7、9， 分别代表 10%、20%、30%、40%、50% 的 inion-to-nasion 距离。额外字⺟代码的引⼊命名中间电极位点。请注 意，这些新字⺟代码不⼀定指的是⼤脑⽪层上的区域。
+当使⽤更多电极记录 EEG信号时，使⽤10% 分区添加额外的电极，填充现有 10-20 系统之间的中间位置。这种新的电极命名系统更加复杂，从⽽产⽣了修正后的组合命名&#x6CD5;**(MCN)**。该 MCN 系统对左半球使⽤ 1、3、5、7、9， 分别代表 10%、20%、30%、40%、50% 的 inion-to-nasion 距离。额外字⺟代码的引⼊命名中间电极位点。请注 意，这些新字⺟代码不⼀定指的是⼤脑⽪层上的区域。
 
 中间电极位置的 **MCN** 新字⺟代码是： AF在 Fp 和 F 之间，FC在F 和 C 之间，FT在 F 和 T 之间，CP在C 和 P 之间，TP在T 和 P 之间，PO在P 和 O 之间。 此外，MCN 系统重命名了 10-20 系统的四个电极： T3现在是T7 T4现在是T8 T5现在是P7 T6现在是P8。
 
 \
 10-20系统额外推荐查看视频：\
-[https://www.bilibili.com/video/BV1WV411n7sX](https://www.bilibili.com/video/BV1WV411n7sX) [https://www.bilibili.com/video/BV1DX4y1F7cF](https://www.bilibili.com/video/BV1DX4y1F7cF) [https://www.bilibili.com/video/BV1Vk4y1r7o5](https://www.bilibili.com/video/BV1Vk4y1r7o5) [https://7988888.xyz/eeg-cap/](https://7988888.xyz/eeg-cap/) [https://blog.csdn.net/weixin\_41880581/article/details/103840303](https://blog.csdn.net/weixin\_41880581/article/details/103840303)
+[https://www.bilibili.com/video/BV1WV411n7sX](https://www.bilibili.com/video/BV1WV411n7sX) [https://www.bilibili.com/video/BV1DX4y1F7cF](https://www.bilibili.com/video/BV1DX4y1F7cF) [https://www.bilibili.com/video/BV1Vk4y1r7o5](https://www.bilibili.com/video/BV1Vk4y1r7o5) [https://7988888.xyz/eeg-cap/](https://7988888.xyz/eeg-cap/) [https://blog.csdn.net/weixin\_41880581/article/details/103840303](https://blog.csdn.net/weixin_41880581/article/details/103840303)
 
 **Reference：**\
-[https://zhuanlan.zhihu.com/p/82148179](https://zhuanlan.zhihu.com/p/82148179) [https://blog.csdn.net/weixin\_41880581/article/details/104027274](https://blog.csdn.net/weixin\_41880581/article/details/104027274) [https://mp.weixin.qq.com/s/fCD9M-CtGMptaoG3QWvlOw](https://mp.weixin.qq.com/s/fCD9M-CtGMptaoG3QWvlOw) \
+[https://zhuanlan.zhihu.com/p/82148179](https://zhuanlan.zhihu.com/p/82148179) [https://blog.csdn.net/weixin\_41880581/article/details/104027274](https://blog.csdn.net/weixin_41880581/article/details/104027274) [https://mp.weixin.qq.com/s/fCD9M-CtGMptaoG3QWvlOw](https://mp.weixin.qq.com/s/fCD9M-CtGMptaoG3QWvlOw) \
 [https://7988888.xyz/eeg-cap/](https://7988888.xyz/eeg-cap/)
 
