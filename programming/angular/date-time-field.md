@@ -4,6 +4,31 @@
 
 {% code fullWidth="true" %}
 ```
+// Date range (min, max)
+
+  setMinMaxDate() {
+    const currentDate = new Date();
+    const formattedDate = currentDate.toISOString().split('T')[0];
+    this.minDate = formattedDate;
+    let next30days = this.addDays(currentDate, 90);
+    this.maxDate = next30days.toISOString().split('T')[0];
+  }
+
+
+  addDays(date: Date, days: number): Date {
+    let result = new Date(date);
+    result.setDate(date.getDate() + days);
+    return result;
+  }
+
+
+
+  <input class="form-control" type="date" min={{minDate}} max="{{maxDate}}" formControlName="entryDate">
+```
+{% endcode %}
+
+{% code fullWidth="true" %}
+```
 // Date
 
 UI display:       
