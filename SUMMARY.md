@@ -63,6 +63,7 @@
     * [USB Port reader Web solution](programming/angular/usb-port-reader-web-solution.md)
     * [Debug Angular app using JavaScript Debugger in VS Code](programming/angular/debug-angular/debug-angular-app-using-javascript-debugger-in-vs-code.md)
     * [15 Skills](programming/angular/15-skills/README.md)
+      * [Dropdown list (customer)](programming/angular/15-skills/dropdown-list-customer.md)
       * [Get current datetime](programming/angular/15-skills/get-current-datetime.md)
       * [Get first day of year, month, and date](programming/angular/15-skills/get-first-day-of-year-month-and-date.md)
       * [Call a function in a forEach loop](programming/angular/15-skills/call-a-function-in-a-foreach-loop.md)
