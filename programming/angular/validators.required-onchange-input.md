@@ -67,3 +67,74 @@ export class YourComponent {
 
 ```
 {% endcode %}
+
+{% code fullWidth="true" %}
+````
+// Some code
+```typescript
+  RateTypes = [
+    { id: 1, name: "UNIT RATE" },
+    { id: 2, name: "FLAT RATE" },
+  ];
+
+
+  ngOnInit(): void {
+    this.form = this.fb.group({
+      rateType: [null, Validators.required],
+      price: [null],
+      flatRate: [null],
+    });
+
+    // 初始化时，根据 rateType 选择进行动态验证
+    this.onRateTypeChange();
+  }
+
+  onRateTypeChange(event?: any): void {
+    const rateType = this.form.get('rateType')?.value;
+
+    if (rateType === 'FLAT RATE') {
+      this.form.get('flatRate')?.setValidators([Validators.required, Validators.pattern(/^(?:[0-9]+(?:\.[0-9]{0,2})?)?$/)]);
+      this.form.get('price')?.clearValidators();
+    } else if (rateType === 'UNIT RATE') {
+      this.form.get('price')?.setValidators([Validators.required, Validators.pattern(/^(?:[0-9]+(?:\.[0-9]{0,2})?)?$/)]);
+      this.form.get('flatRate')?.clearValidators();
+    }
+
+    // 重新检测字段的有效性
+    this.form.get('price')?.updateValueAndValidity();
+    this.form.get('flatRate')?.updateValueAndValidity();
+  }
+}
+
+
+
+```html
+    <div class="form-group mb-3">
+      <div>
+        <label>Rate Type</label> <span style="color: red;"> *</span>
+      </div>
+      <div class="row">
+        <select class="form-select form-control oneline2-3" formControlName="rateType" placeholder="Please select" (change)=onRateTypeChange($event)>
+          @for(rateType of RateTypes; track rateType.id) {
+          <option [ngValue]="rateType.name">{{rateType.name}}</option>
+          }
+        </select>
+
+      </div>
+    </div>
+
+    <div class="form-group mb-2">
+      <div>
+        <label>Unit Price</label>
+        <label style="margin-left: 186px;">Flat Rate</label>
+      </div>
+      <div class="row">
+        <input class="form-control oneline2-3" formControlName="price" pattern="^(?:[0-9]+(?:\.[0-9]{0,2})?)?$"
+          placeholder="2 decimal places" />
+        <input class="form-control oneline2-3" formControlName="flatRate" pattern="^(?:[0-9]+(?:\.[0-9]{0,2})?)?$"
+          placeholder="2 decimal places" />
+      </div>
+    </div>
+```
+````
+{% endcode %}
