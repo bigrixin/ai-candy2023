@@ -25,6 +25,7 @@ input.ng-invalid.ng-touched {
 
 * input colour, field focus color
 
+{% code fullWidth="true" %}
 ```
 
 input.ng-invalid.ng-touched {
@@ -33,8 +34,9 @@ input.ng-invalid.ng-touched {
 }
 
 ```
+{% endcode %}
 
-* <pre><code><strong>/input, select field focus colour
+* <pre data-full-width="true"><code><strong>/input, select field focus colour
   </strong>-----------------------------------
       datatables.net@2.1.6
   -----------------------------------
@@ -348,3 +350,39 @@ input.ng-invalid.ng-touched {
     }
     ```
 
+
+
+{% code fullWidth="true" %}
+```
+//  it be used for paged list
+
+::ng-deep .sticky-col {
+  position: sticky;
+  left: 0;
+  background-color:rgb(231, 233, 230) !important;
+  z-index: 12;
+}
+
+
+
+columns: [
+  {
+    data: 'id', render: function (data: any, type: any, row: any) {
+      if (role === 'Administrator' || role === 'Supervisor') {
+        let content = '<div style="text-align: center;" ><button mat-button (click)="editDialog("Edit",dataItem)" class="btn btn-outline-warning btn-sm edit-btn">' +
+          '<i class="fa fa-edit" title="Edit"></i></button> <span class="pe-1"></span>'
+        if (!isForCustomer) {
+          content = content + ' <button mat-button (click)="deleteDialog(dataItem.id, dataItem.rego)" class="btn btn-outline-danger btn-sm delete-btn">' +
+            '<i class="fa fa-trash" title="Delete"></i></button></div>'
+        }
+        return '<div style=" width:80px; background-color: rgb(230, 233, 230)!important">' + content + '</div></div>'
+      }
+      else
+        return ''
+    },
+   className: 'sticky-col'   ///<<<<<<<<<
+  },
+
+
+```
+{% endcode %}
