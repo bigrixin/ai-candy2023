@@ -27,6 +27,14 @@
     &#x3C;/div>
 
 
+
+### number only / number and space only
+&#x3C;div class="row">
+  &#x3C;input class="form-control oneline2-3" formControlName="pin" pattern="^-?[0-9]\d*(\9)?$" placeholder="0-9 number only" />
+  &#x3C;input class="form-control oneline2-3" formControlName="accountNumber" pattern="^[0-9\s]*$" placeholder="0-9 and space only" />
+  &#x3C;input class="form-control oneline2-3" formControlName="billingAddress" />
+&#x3C;/div>
+
 </code></pre>
 
 ```
