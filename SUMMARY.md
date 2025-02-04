@@ -37,6 +37,7 @@
   * [SQL](programming/sql/README.md)
     * [Delete data and reset auto-increment ID](programming/sql/delete-data-and-reset-auto-increment-id.md)
   * [Angular](programming/angular/README.md)
+    * [Auto address use Google place](programming/angular/auto-address-use-google-place.md)
     * [Auto address use Azure Maps](programming/angular/auto-address-use-azure-maps.md)
     * [Upload file to Server](programming/angular/upload-file-to-server.md)
     * [Validators.required OnChange input](programming/angular/validators.required-onchange-input.md)
