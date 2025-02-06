@@ -191,6 +191,7 @@
     * [🕕 C# Time Zone](programming/get-data-by-local-time-ui-api/c-time-zone.md)
 * [>>>>>>>>>>>>>>>>>>>>>>>>>>>>](greater-than-greater-than-greater-than-greater-than-greater-than-greater-than-greater-than-greater-t.md)
 * [🪜 Apps and Skills](______________________________.md)
+  * [6 Yao](apps-and-skills/6-yao.md)
   * [1️ Windows system app skills](apps-and-skills/windows/README.md)
     * [Brother HL-2130 打印机 Toner 报警](apps-and-skills/windows/brother-hl2130-da-yin-ji-toner-bao-jing.md)
     * [VS Code 快捷键](apps-and-skills/windows/vs-code-kuai-jie-jian.md)
