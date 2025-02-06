@@ -2,7 +2,7 @@
 description: Display setting
 ---
 
-# 6 Yao
+# 6 Yao Chinese UI
 
 Windows 11
 
