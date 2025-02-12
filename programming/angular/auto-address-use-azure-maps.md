@@ -5,6 +5,7 @@
 {% code fullWidth="true" %}
 ````
 // https://portal.azure.com/#browse/Microsoft.Maps%2Faccounts
+Create Accout, Azure_Maps ->Settings->Authentication=>Primary key
 
 ```html
 <h2 mat-dialog-title><i class="bi bi-info-circle text-success"> </i> {{data.action}} Location</h2>
