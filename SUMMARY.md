@@ -141,7 +141,7 @@
     * [图片自适应宽度](programming/.net-skills/tu-pian-zi-shi-ying-kuan-du.md)
     * [ASP.NET Identity](programming/.net-skills/asp.net-identity.md)
     * [Upload file to Azure](programming/.net-skills/upload-file-to-azure/README.md)
-      * [Page](programming/.net-skills/upload-file-to-azure/page.md)
+      * [Upload file to Blob](programming/.net-skills/upload-file-to-azure/upload-file-to-blob.md)
     * [Developer Guide](programming/.net-skills/developer-guide.md)
     * [Code first one-many](programming/.net-skills/code-first-one-many.md)
     * [ASP.NET MVC 5 Custom Error Page](programming/.net-skills/asp.net-mvc-5-custom-error-page.md)
