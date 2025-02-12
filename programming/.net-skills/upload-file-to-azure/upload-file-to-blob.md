@@ -17,7 +17,8 @@
 ```
 {% endcode %}
 
-* Microsoft Azure>Storage accounts&#x20;
+* Microsoft Azure>Storage accounts \
+  &#x20;(Create account, then Create Container that select Blob)
 * "AzureBlobConnectionString": _name_ ->Security + networking ->Access keys->key1\
   &#x20;-》Connection string
 * "BlobContainerName": _name_ ->Data storage->Containers->_container name_
