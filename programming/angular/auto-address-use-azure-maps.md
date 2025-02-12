@@ -4,7 +4,8 @@
 
 {% code fullWidth="true" %}
 ````
-// Some code
+// https://portal.azure.com/#browse/Microsoft.Maps%2Faccounts
+
 ```html
 <h2 mat-dialog-title><i class="bi bi-info-circle text-success"> </i> {{data.action}} Location</h2>
 <hr>
