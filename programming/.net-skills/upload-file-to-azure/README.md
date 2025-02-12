@@ -1,5 +1,6 @@
 # Upload file to Azure
 
+{% code fullWidth="true" %}
 ```
 In NuGet to install:
 WindowsAzure.Storage
@@ -52,7 +53,9 @@ Microsoft.WindowsAzure.ConfigurationManager
 		}
 		
 ```
+{% endcode %}
 
+{% code fullWidth="true" %}
 ```
 	public string UploadToAzureStorage(HttpPostedFileBase file, string containerName)
 		{
@@ -200,3 +203,4 @@ Microsoft.WindowsAzure.ConfigurationManager
 		}
 		#endregion
 ```
+{% endcode %}
