@@ -40,9 +40,9 @@ npm install -g @angular/cli
 ----------------------------------- 
   Update packages
 ----------------------------------- 
-ng update @angular/core@16 @angular/cli@16 
-ng update @angular/core@17 @angular/cli@17  
-ng update @angular/core@18 @angular/cli@18 
+ng update @angular/core@16 @angular/cli@16 --allow-dirty
+ng update @angular/core@17 @angular/cli@17 --allow-dirty 
+ng update @angular/core@18 @angular/cli@18 --allow-dirty
 
 ng update datatables.net-dt@2.1.0 tslint@5.20.1 --allow-dirty --force
 
