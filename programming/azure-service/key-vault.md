@@ -1,3 +1,7 @@
+---
+icon: '1'
+---
+
 # Key Vault
 
 
@@ -13,7 +17,7 @@ Azure Key vaults
 3. Under settings, click on Identity
 4. Change the status to On
 
-5. Entry Key Vaults   
+5. Entry Key Vaults, Create a key vault, in Objects, Secrets, Generate a secret key 
 6. In Access policies
 7. Click Create
 8. Under the Secret Permission, select Get and List
