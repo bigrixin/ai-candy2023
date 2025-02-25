@@ -145,7 +145,7 @@ namespace System.API.Controllers
 
 
 
-{% code fullWidth="false" %}
+{% code fullWidth="true" %}
 ```
 // UI
 
