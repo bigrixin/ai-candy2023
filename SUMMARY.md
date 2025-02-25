@@ -165,6 +165,7 @@
     * [PowerBI embed app - Client](programming/power-bi/powerbi-embed-app-client/README.md)
       * [Setting on portal](programming/power-bi/powerbi-embed-app-client/setting-on-portal.md)
   * [Azure service](programming/azure-service/README.md)
+    * [Key Vault](programming/azure-service/key-vault.md)
     * [Service bus - queue](programming/azure-service/service-bus-queue.md)
     * [Power Automate](programming/azure-service/power-automate.md)
     * [Kusto Query Language](programming/azure-service/kusto-query-language.md)
