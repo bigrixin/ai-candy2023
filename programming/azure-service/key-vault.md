@@ -149,11 +149,12 @@ namespace System.API.Controllers
 ```
 // UI
 
-
-export enum PortalStatus {
-  Normal,
-  NearlyExpired,
-  Expired,
+export const constants = {
+  export enum PortalStatus {
+    Normal,
+    NearlyExpired,
+    Expired,
+  }
 }
 
 // key-vault.servie.ts
@@ -226,9 +227,10 @@ export class ExpiredVerificationService {
 
 {% code fullWidth="true" %}
 ````
-// Some code
-
-```typescript
+// ts
+import { PortalStatus } from 'src/app/constants';
+import { KeyVaultService } from 'src/app/services/key-vault.service';
+ 
 @Component({
   selector: 'app-expired-warning',
   templateUrl: './expired-warning.component.html',
