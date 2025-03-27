@@ -37,6 +37,7 @@
   * [SQL](programming/sql/README.md)
     * [Delete data and reset auto-increment ID](programming/sql/delete-data-and-reset-auto-increment-id.md)
   * [Angular](programming/angular/README.md)
+    * [Datatables save state using localStorage](programming/angular/datatables-save-state-using-localstorage.md)
     * [Variable storage method](programming/angular/variable-storage-method.md)
     * [Colour picker](programming/angular/colour-picker.md)
     * [Error fix for click columns on Datatable](programming/angular/error-fix-for-click-columns-on-datatable.md)
