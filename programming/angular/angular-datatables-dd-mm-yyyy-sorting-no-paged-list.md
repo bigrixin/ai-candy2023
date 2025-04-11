@@ -1,4 +1,4 @@
-# Angular-datatables,   dd/MM/yyyy,  sorting
+# Angular-datatables,   dd/MM/yyyy,  sorting (no paged list)
 
 {% code fullWidth="true" %}
 ```
@@ -26,7 +26,7 @@ buildDtOptions() {
     pageLength: 15,
     columnDefs: [
       {
-        targets: 2,                 // index of the column to be sorted
+        targets: 2,           // index of the column to be sorted
         type: 'date-type'     // date type
       }
     ],
