@@ -1,7 +1,8 @@
-# display multi line message in the Toastr
+# Toastr - display multiline and position
 
 
 
+{% code fullWidth="true" %}
 ```
 // display multi line message in the toastr
 
@@ -33,3 +34,27 @@ infoDialog() {
   }
 
 ```
+{% endcode %}
+
+{% code fullWidth="true" %}
+```
+// Change toastr position
+
+this.toastr.toastrConfig.positionClass = 'toast-top-center';
+this.toastr.clear(); 
+this.toastr.warning('The type has been selected, so the value must be entered.', 'Warning');
+
+this.toastr.toastrConfig.positionClass = 'toast-top-right';
+
+
+positionClass:
+'toast-top-right' (default)
+'toast-bottom-right'
+'toast-bottom-left'
+'toast-top-left'
+'toast-top-full-width'
+'toast-bottom-full-width'
+'toast-top-center'
+'toast-bottom-center'
+```
+{% endcode %}

@@ -65,7 +65,7 @@
     * [JSON Parse && Object Array](programming/angular/json-parse-and-and-object-array.md)
     * [Detect unused import in Typescript](programming/angular/detect-unused-import-in-typescript.md)
     * [Change location using radio button](programming/angular/change-location-using-radio-button.md)
-    * [display multi line message in the Toastr](programming/angular/display-multi-line-message-in-the-toastr.md)
+    * [Toastr - display multiline and position](programming/angular/toastr-display-multiline-and-position.md)
     * [Custom LOCALE\_ID](programming/angular/custom-locale_id.md)
     * [Batch add data from csv to API server](programming/angular/batch-add-data-from-csv-to-api-server/README.md)
       * [Angular read csv and upload to Server](programming/angular/batch-add-data-from-csv-to-api-server/angular-read-csv-and-upload-to-server.md)
