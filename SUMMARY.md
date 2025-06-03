@@ -37,6 +37,7 @@
   * [SQL](programming/sql/README.md)
     * [Delete data and reset auto-increment ID](programming/sql/delete-data-and-reset-auto-increment-id.md)
   * [Angular](programming/angular/README.md)
+    * [DataTable column re-order](programming/angular/datatable-column-re-order.md)
     * [Angular-datatables,   dd/MM/yyyy,  sorting (no paged list)](programming/angular/angular-datatables-dd-mm-yyyy-sorting-no-paged-list.md)
     * [Datatables save state using localStorage](programming/angular/datatables-save-state-using-localstorage.md)
     * [Variable storage method](programming/angular/variable-storage-method.md)
