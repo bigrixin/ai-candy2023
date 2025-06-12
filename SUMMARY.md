@@ -35,6 +35,7 @@
   * [3️⃣ AI Websites](ai-ren-gong-zhi-neng/3.-ai-websites.md)
 * [🪤 Programming](programming/README.md)
   * [SQL](programming/sql/README.md)
+    * [Clear database](programming/sql/clear-database.md)
     * [Delete data and reset auto-increment ID](programming/sql/delete-data-and-reset-auto-increment-id.md)
   * [Angular](programming/angular/README.md)
     * [DataTable column re-order](programming/angular/datatable-column-re-order.md)
