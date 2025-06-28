@@ -1,5 +1,5 @@
 ---
-description: B
+description: 用于训练获得最佳参数
 ---
 
 # 贝叶斯优化
