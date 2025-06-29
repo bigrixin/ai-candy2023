@@ -169,3 +169,54 @@ if __name__ == "__main__":
     bayesian_optimization(n_calls=15)
 ```
 {% endcode %}
+
+{% code fullWidth="true" %}
+```
+// Some code
+
+import pickle
+from skopt.plots import plot_convergence, plot_objective, plot_evaluations
+import matplotlib.pyplot as plt
+import os
+
+### THIS IS A SAMPLE, BUT CANNOT BE RUN DIRECTLY
+
+dataset_name = "aaa"
+
+model_dir = f"checkpoints_{dataset_name}"
+best_result_file = os.path.join(model_dir, "bayesian_optimization_result.pkl")
+# 读取优化结果
+with open(best_result_file, 'rb') as f:
+    result = pickle.load(f)
+
+# 1. 绘制收敛曲线
+plt.figure(figsize=(10, 6))
+plot_convergence(result)
+plt.title('优化收敛曲线')
+plt.grid(True)
+plt.tight_layout()
+plt.savefig('convergence_curve.png', dpi=300)
+
+# 2. 绘制参数重要性热图
+plt.figure(figsize=(12, 10))
+plot_objective(result, n_points=40)  # 增加 n_points 使图像更平滑
+plt.suptitle('参数重要性热图')
+plt.tight_layout(rect=[0, 0.03, 1, 0.95])  # 调整布局
+plt.savefig('parameter_importance.png', dpi=300)
+
+# 3. 绘制参数评估分布
+plt.figure(figsize=(15, 10))
+plot_evaluations(result, bins=20)  # 调整 bins 控制直方图粒度
+plt.suptitle('参数评估分布')
+plt.tight_layout(rect=[0, 0.03, 1, 0.95])
+plt.savefig('parameter_evaluations.png', dpi=300)
+
+# 4. 打印最佳参数
+print("最佳目标函数值:", result.fun)
+print("最佳参数组合:")
+for i, dim in enumerate(result.space.dimensions):
+    print(f"  {dim.name}: {result.x[i]}")
+
+plt.show()
+```
+{% endcode %}
