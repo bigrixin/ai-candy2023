@@ -501,3 +501,5 @@ epochs: 30\
 kernel\_size: 2\
 learning\_rate: 0.007169589625095676\
 lstm\_units: 48
+
+<figure><img src="../../.gitbook/assets/cnn-lstm-bayes-figure.png" alt=""><figcaption></figcaption></figure>
