@@ -1,5 +1,5 @@
 ---
-description: 用于训练模型，以获得最佳参数
+description: 用于训练模型，以获得最佳参数，如神经网络中的学习率、层数、隐藏单元数、正则化系数
 ---
 
 # 贝叶斯优化
@@ -74,8 +74,8 @@ dimensions = [
     Integer(16, 64, name='conv1_channels'),
     Integer(32, 128, name='conv2_channels'),
     Categorical([3, 5], name='kernel_size'),
-    Categorical([True, False], name='use_leaky_relu'),
-    Real(0.2, 0.7, name='dropout_rate'),
+    Categorical([True, False], name='use_leaky_relu'),  ## 激活函数
+    Real(0.2, 0.7, name='dropout_rate'),                ## regularization 正则化
     
     # LSTM参数
     Integer(64, 256, name='lstm_hidden'),
@@ -87,8 +87,8 @@ dimensions = [
     # 训练参数
     Real(1e-4, 1e-2, prior='log-uniform', name='learning_rate'),
     Integer(16, 128, name='batch_size'),
-    Categorical(['adam', 'sgd'], name='optimizer'),
-    Real(0, 0.001, name='weight_decay')
+    Categorical(['adam', 'sgd'], name='optimizer'),     ## 优化器
+    Real(0, 0.001, name='weight_decay')                 ## 损失函数权重
 ]
 
 # 目标函数 - 贝叶斯优化将尝试最小化此函数
