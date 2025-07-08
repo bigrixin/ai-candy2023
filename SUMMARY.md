@@ -21,6 +21,7 @@
     * [👉 Deep Learning Resources](ai-ren-gong-zhi-neng/ji-qi-xue-xi/deep-learning-resources.md)
     * [👉 Deep learning notes](ai-ren-gong-zhi-neng/ji-qi-xue-xi/deep-learning-notes.md)
   * [2️⃣ Python](ai-ren-gong-zhi-neng/2.-python/README.md)
+    * [ResidualBlock 实现残差连接](artificial-intelligence/python/residualblock-shi-xian-can-cha-lian-jie.md)
     * [矩阵生成无向图（有向图）](artificial-intelligence/python/ju-zhen-sheng-cheng-wu-xiang-tu-you-xiang-tu.md)
     * [贝叶斯优化](artificial-intelligence/python/bei-ye-si-you-hua.md)
     * [Youtube音乐下载](ai-ren-gong-zhi-neng/2.-python/youtube-yin-le-xia-zai.md)
