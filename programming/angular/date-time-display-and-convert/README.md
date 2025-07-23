@@ -1,6 +1,16 @@
-# Date, Time field
+# Date, Time display and convert
 
 
+
+{% code fullWidth="true" %}
+```typescript
+ // Conver UTC to NZ time (UI)
+   data: 'timestamp', render: function (data: any, type: any, row: any) {
+        return '<span class="text-success" >' +
+         formatDate(new Date(data), 'dd/MM/yyyy HH:mm:ss', 'en-NZ', 'Pacific/Auckland')
+   }
+```
+{% endcode %}
 
 {% code fullWidth="true" %}
 ```
