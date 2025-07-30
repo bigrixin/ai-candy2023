@@ -507,6 +507,6 @@ kernel\_size: 2\
 learning\_rate: 0.007169589625095676\
 lstm\_units: 48
 
-<figure><img src="../../.gitbook/assets/cnn-lstm-bayes-figure.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/cnn-lstm-bayes-figure.png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/bayesian-optimization-process.gif" alt=""><figcaption><p>Sample 贝叶斯调参过程</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/bayesian-optimization-process.gif" alt=""><figcaption><p>Sample 贝叶斯调参过程</p></figcaption></figure>
