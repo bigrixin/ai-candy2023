@@ -50,7 +50,10 @@ $$
 2. 接收新的信息
 3. 根据新的信息，更新对事物的判断，得出后验概率
 
-新假设 = 旧假设 + 新证据
+新假设 = 旧假设 + 新证据\
+\
+[https://www.youtube.com/watch?v=Dwv60z\_XeaE](https://www.youtube.com/watch?v=Dwv60z_XeaE)\
+
 {% endhint %}
 
 {% code fullWidth="true" %}
