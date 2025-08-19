@@ -4,8 +4,8 @@ description: 用于训练模型，以获得最佳参数，如神经网络中的�
 
 # 贝叶斯优化
 
-1. **用高斯过程 Gaussian Process（GP) 将已有数据来预测未知区域的可能值。**
-2. **用采集函数（Acquisition Function）决定下一个采样点**。
+1. **用高斯过程 Gaussian Process（GP)  来代理目标函数, 将已有数据来预测未知区域的可能值。**
+2. **用采集函数 Acquisition Function (AF）决定下一个采样点**。
 3. **不断更新模型，逐步逼近全局最优解**。
 
 {% code fullWidth="true" %}
