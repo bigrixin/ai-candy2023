@@ -42,6 +42,7 @@
     * [Clear database](programming/sql/clear-database.md)
     * [Delete data and reset auto-increment ID](programming/sql/delete-data-and-reset-auto-increment-id.md)
   * [Angular](programming/angular/README.md)
+    * [Angular package.json](programming/angular/angular-package.json.md)
     * [Print() two sheet issue](programming/angular/print-two-sheet-issue.md)
     * [DataTable column re-order](programming/angular/datatable-column-re-order.md)
     * [Angular-datatables,   dd/MM/yyyy,  sorting (no paged list)](programming/angular/angular-datatables-dd-mm-yyyy-sorting-no-paged-list.md)
