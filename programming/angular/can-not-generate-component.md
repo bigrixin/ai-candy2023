@@ -10,7 +10,7 @@ ng g c componentName
    ng --version
 
 1. check command
-    ng gereate --help
+    ng generate --help
 
     need include:
     component、service、module,  schematics
