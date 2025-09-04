@@ -32,5 +32,20 @@ ng g c componentName
     npm install --save @angular/cli
     
 6. ng update
+
+
+7. 
+angular.json
+
+"schematics": {
+  "@schematics/angular:component": {
+    "standalone": true,
+    "style": "scss"
+  }
+}
+
+8.
+npm cache clear --force
+npm cache verify
 ```
 {% endcode %}
