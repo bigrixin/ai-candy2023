@@ -42,6 +42,7 @@
     * [Clear database](programming/sql/clear-database.md)
     * [Delete data and reset auto-increment ID](programming/sql/delete-data-and-reset-auto-increment-id.md)
   * [Angular](programming/angular/README.md)
+    * [Can not generate component](programming/angular/can-not-generate-component.md)
     * [Angular package.json](programming/angular/angular-package.json.md)
     * [Print() two sheet issue](programming/angular/print-two-sheet-issue.md)
     * [DataTable column re-order](programming/angular/datatable-column-re-order.md)
