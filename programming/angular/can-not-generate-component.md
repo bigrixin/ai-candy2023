@@ -22,11 +22,13 @@ ng g c componentName
 
 
 4. install angular
-    npm install -g @angular/cli
+     npm uninstall -g @angular/cli
+     npm install -g @angular/cli
 
 5.  Install local project dependencies
 
     delete node_modules and package-lock.json
-    npm install
+    npm uninstall --save @angular/cli
+    npm install --save @angular/cli
 ```
 {% endcode %}
