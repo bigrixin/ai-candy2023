@@ -30,5 +30,7 @@ ng g c componentName
     delete node_modules and package-lock.json
     npm uninstall --save @angular/cli
     npm install --save @angular/cli
+    
+6. ng update
 ```
 {% endcode %}
