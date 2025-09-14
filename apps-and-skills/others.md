@@ -1,5 +1,5 @@
 ---
-icon: '8'
+icon: hand-point-right
 ---
 
 # Others
