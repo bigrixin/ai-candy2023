@@ -46,6 +46,8 @@ Tools
 [Greek Uninstaller](https://geekuninstaller.com/)
 
 [Fast Replace Word](https://github.com/IwanKaramazow/FastReplaceString)
+
+[DNS Check](https://dnschecker.org/)
 {% endhint %}
 
 > [Coffee chaff](https://rountoncoffee.co.uk/blogs/rounton-coffee-blog/coffee-chaff-ideas)&#x20;
