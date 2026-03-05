@@ -39,7 +39,7 @@
   * [3️⃣ AI Websites](ai-ren-gong-zhi-neng/3.-ai-websites.md)
 * [🧊 RAG Local](rag-local/README.md)
   * [RAG Local installation](rag-local/rag-local-installation/README.md)
-    * [Reference](rag-local/rag-local-installation/reference.md)
+    * [What is RAG](rag-local/rag-local-installation/what-is-rag.md)
   * [Customer service in WeChat](rag-local/customer-service-in-wechat.md)
   * [Jina Reader](rag-local/jina-reader.md)
   * [PDF to Markdown](rag-local/pdf-to-markdown.md)
