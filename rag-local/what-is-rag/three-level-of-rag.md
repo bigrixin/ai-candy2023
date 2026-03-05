@@ -1,3 +1,7 @@
+---
+icon: right-long
+---
+
 # Three level of RAG
 
 **1. Basic RAG (Naive RAG)**
