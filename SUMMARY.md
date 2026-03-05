@@ -38,6 +38,7 @@
     * [修改Jupyter Notebook 默认工作目录](ai-ren-gong-zhi-neng/2.-python/jupyter-directory.md)
   * [3️⃣ AI Websites](ai-ren-gong-zhi-neng/3.-ai-websites.md)
 * [🧊 RAG Local](rag-local/README.md)
+  * [Reference](rag-local/reference.md)
   * [RAG Local installation](rag-local/rag-local-installation.md)
   * [Customer service in WeChat](rag-local/customer-service-in-wechat.md)
   * [Jina Reader](rag-local/jina-reader.md)
