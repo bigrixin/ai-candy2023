@@ -8,8 +8,7 @@ description: >-
 
 [https://www.base64encoder.io/image-to-base64-converter/](https://www.base64encoder.io/image-to-base64-converter/)\
 \
-&#x20; \-- copy "Base64 Image source" to upload using API\
-
+&#x20; \-- copy "Base64 Image source" to upload using API<br>
 
 ````
 // upload.module.ts

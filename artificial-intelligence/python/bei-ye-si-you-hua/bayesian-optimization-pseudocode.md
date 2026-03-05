@@ -52,8 +52,7 @@ $$
 
 新假设 = 旧假设 + 新证据\
 \
-[https://www.youtube.com/watch?v=Dwv60z\_XeaE](https://www.youtube.com/watch?v=Dwv60z_XeaE)\
-
+[https://www.youtube.com/watch?v=Dwv60z\_XeaE](https://www.youtube.com/watch?v=Dwv60z_XeaE)<br>
 {% endhint %}
 
 {% code fullWidth="true" %}

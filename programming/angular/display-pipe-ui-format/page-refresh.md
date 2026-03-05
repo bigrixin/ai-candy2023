@@ -3,19 +3,14 @@
 
 
 * **refresh a whole page**\
-  &#x20; window.location.reload();\
+  &#x20; window.location.reload();<br>
+*   **delay refreshing a whole page**<br>
 
-*   **delay refreshing a whole page**\
-
-
-    //refresh page delay 3 seconds setTimeout(window.location.reload.bind(location),3000);\
-
+    //refresh page delay 3 seconds setTimeout(window.location.reload.bind(location),3000);<br>
 
     //same above \
-    setTimeout(location.reload.bind(location), 3000);\
-
-*   **reload partial page**\
-
+    setTimeout(location.reload.bind(location), 3000);<br>
+*   **reload partial page**<br>
 
     this.reload(this.router.url);\
     \
@@ -24,8 +19,7 @@
     async reload(url: string): Promise { \
     &#x20;      await this.router.navigateByUrl('otherpage', { skipLocationChange: true });     \
     &#x20;      return this.router.navigateByUrl(url); \
-    }\
-
+    }<br>
 * **delay reload partial page**\
   \
   this.delayReload(3000); //1000ms \

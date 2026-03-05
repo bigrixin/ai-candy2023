@@ -2,7 +2,7 @@
 description: Retrieval, Augmented, Generation
 ---
 
-# RAG
+# RAG Local installation
 
 {% code fullWidth="true" %}
 ```

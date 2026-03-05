@@ -71,8 +71,7 @@ re: https://www.dataquest.io/blog/a-complete-guide-to-python-virtual-environment
 ```
 {% endcode %}
 
-> <mark style="color:blue;">**Use python environment in VS Code (Linux)**</mark>\
->
+> <mark style="color:blue;">**Use python environment in VS Code (Linux)**</mark><br>
 >
 > * source /scratch/pytorch/venv/bin/activate                       // Entry the virtual environment
 > *   (venv) which python

@@ -4,8 +4,7 @@ description: '- 免费好用小程序'
 
 # 2️ Windows 平台工具，网站
 
-* **脑图制作**：免费在线使用，功能基本不受限制，模板、图标。  [GitMind ](https://gitmind.com/)\
-
+* **脑图制作**：免费在线使用，功能基本不受限制，模板、图标。  [GitMind ](https://gitmind.com/)<br>
 * **音频播放**：简洁无广告声音播放器。缺点：常产生停顿。[Foobar2000](https://www.foobar2000.org/)
 * **媒体播放**：功能强大视频流播放，3D,  直播流。缺点：易崩溃。[PotPlayer](https://potplayer.tv/)
 * **视频编辑:**  开源免费，多种功能视频编辑。[Shotcut](https://shotcut.org/),   CapCut ([剪映国际版](https://www.capcut.com/))

@@ -6,7 +6,7 @@ description: dotnet new gitignore  (create a new .gitignore)
 
 dotnet new gitignore (create a new .gitignore)
 
-#### [**git command**](https://mp.weixin.qq.com/s/rlDgU8a\_8GbHeDRduHXazQ)
+#### [**git command**](https://mp.weixin.qq.com/s/rlDgU8a_8GbHeDRduHXazQ)
 
 * [x] git checkout -b feature/new-branch (create a new branch)&#x20;
 * [x] git push (-u) origin feature/new-branch (push to remote server)
@@ -52,4 +52,4 @@ At migration folder, select and add some migration have not include in VS.
 
 \-----------------------------------
 
-\
+<br>

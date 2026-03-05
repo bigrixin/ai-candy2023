@@ -8,8 +8,7 @@
 >   &#x20;   [第一周：深度学习引言(Introduction to Deep Learning)](http://www.ai-start.com/dl2017/html/lesson1-week1.html)\
 >   &#x20;   [第二周：神经网络的编程基础(Basics of Neural Network programming)](http://www.ai-start.com/dl2017/html/lesson1-week2.html)\
 >   &#x20;   [第三周：浅层神经网络(Shallow neural networks)](http://www.ai-start.com/dl2017/html/lesson1-week3.html)\
->   &#x20;   [第四周：深层神经网络(Deep Neural Networks)](http://www.ai-start.com/dl2017/html/lesson1-week4.html)\
->
+>   &#x20;   [第四周：深层神经网络(Deep Neural Networks)](http://www.ai-start.com/dl2017/html/lesson1-week4.html)<br>
 >
 >
 >
@@ -17,16 +16,14 @@
 >   \
 >   &#x20;   [第一周：深度学习的实用层面(Practical aspects of Deep Learning)](http://www.ai-start.com/dl2017/html/lesson2-week1.html)\
 >   &#x20;   [第二周：优化算法 (Optimization algorithms)](http://www.ai-start.com/dl2017/html/lesson2-week2.html)\
->   &#x20;   [第三周：超参数调试，batch正则化和程序框架（Hyperparameter tuning, Batch Normalization and Programming Frameworks)](http://www.ai-start.com/dl2017/html/lesson2-week3.html)\
->
+>   &#x20;   [第三周：超参数调试，batch正则化和程序框架（Hyperparameter tuning, Batch Normalization and Programming Frameworks)](http://www.ai-start.com/dl2017/html/lesson2-week3.html)<br>
 >
 >
 >
 > * **第三门课 结构化机器学习项目 (Structuring Machine Learning Projects)**\
 >   \
 >   &#x20;   [第一周：机器学习策略（1）(ML Strategy (1))](http://www.ai-start.com/dl2017/html/lesson3-week1.html)\
->   &#x20;   [第二周：机器学习策略（2）(ML Strategy (2))](http://www.ai-start.com/dl2017/html/lesson3-week2.html)\
->
+>   &#x20;   [第二周：机器学习策略（2）(ML Strategy (2))](http://www.ai-start.com/dl2017/html/lesson3-week2.html)<br>
 >
 >
 >
@@ -35,8 +32,7 @@
 >   &#x20;   [第一周：卷积神经网络(Foundations of Convolutional Neural Networks)](http://www.ai-start.com/dl2017/html/lesson4-week1.html)\
 >   &#x20;   [第二周：深度卷积网络：实例探究(Deep convolutional models: case studies)](http://www.ai-start.com/dl2017/html/lesson4-week2.html)\
 >   &#x20;   [第三周：目标检测（Object detection）](http://www.ai-start.com/dl2017/html/lesson4-week3.html)\
->   &#x20;   [第四周：特殊应用：人脸识别和神经风格转换（Special applications: Face recognition \&Neural style transfer）](http://www.ai-start.com/dl2017/html/lesson4-week4.html)\
->
+>   &#x20;   [第四周：特殊应用：人脸识别和神经风格转换（Special applications: Face recognition \&Neural style transfer）](http://www.ai-start.com/dl2017/html/lesson4-week4.html)<br>
 >
 >
 >

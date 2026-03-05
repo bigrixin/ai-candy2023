@@ -13,8 +13,7 @@ wT: 特征权重
 𝑥 ：N𝑥 维特征向量
 ```
 
-&#x20; 2\. 激活函数：转换线性到非线性 （由于线性值可能超过1或小于1）\
-
+&#x20; 2\. 激活函数：转换线性到非线性 （由于线性值可能超过1或小于1）<br>
 
 <figure><img src="https://n.sinaimg.cn/spider2021224/658/w875h583/20210224/0b99-kkmphps7571844.png" alt=""><figcaption></figcaption></figure>
 
