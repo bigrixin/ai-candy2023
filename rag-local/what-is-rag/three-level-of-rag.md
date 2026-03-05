@@ -8,7 +8,9 @@ icon: right-long
 
 **Core Workflow**:
 
-<mark style="color:blue;">**`Document Loading → Text Splitting → Text Embedding → Knowledge Retrieval → Prompt Construction → LLM Q&A`**</mark>
+<p align="center"><mark style="color:blue;"><strong><code>Document Loading → Text Splitting → Text Embedding →</code></strong></mark> </p>
+
+<p align="center"><mark style="color:blue;"><strong><code>Knowledge Retrieval → Prompt Construction → LLM Q&#x26;A</code></strong></mark></p>
 
 
 
