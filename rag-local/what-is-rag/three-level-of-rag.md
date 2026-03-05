@@ -6,7 +6,11 @@ icon: right-long
 
 **1. Basic RAG (Naive RAG)**
 
-**Core Workflow**:`Document Loading → Text Splitting → Text Embedding → Knowledge Retrieval → Prompt Construction → LLM Q&A`
+**Core Workflow**:
+
+<mark style="color:blue;">**`Document Loading → Text Splitting → Text Embedding → Knowledge Retrieval → Prompt Construction → LLM Q&A`**</mark>
+
+
 
 * **Characteristics**: The most classic and straightforward implementation, with a linear and simple process.
 * **Advantages**: Low implementation cost, ideal for quickly building a prototype for validation.

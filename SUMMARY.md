@@ -38,7 +38,7 @@
     * [修改Jupyter Notebook 默认工作目录](ai-ren-gong-zhi-neng/2.-python/jupyter-directory.md)
   * [3️⃣ AI Websites](ai-ren-gong-zhi-neng/3.-ai-websites.md)
 * [🧊 RAG Local](rag-local/README.md)
-  * [What is RAG ?](rag-local/what-is-rag/README.md)
+  * [What is RAG ?](rag-local/rag-local-installation/what-is-rag.md)
     * [Three level of RAG](rag-local/what-is-rag/three-level-of-rag.md)
   * [Create Local RAG](rag-local/rag-local-installation/README.md)
   * [Customer service in WeChat](rag-local/customer-service-in-wechat.md)
