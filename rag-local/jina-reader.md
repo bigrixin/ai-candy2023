@@ -1,3 +1,7 @@
+---
+icon: '4'
+---
+
 # Jina Reader
 
 https://github.com/jina-ai/reader

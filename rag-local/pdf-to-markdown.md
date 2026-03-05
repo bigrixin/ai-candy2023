@@ -1,3 +1,7 @@
+---
+icon: '5'
+---
+
 # PDF to Markdown
 
 https://github.com/vikParuchuri/marker

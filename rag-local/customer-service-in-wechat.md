@@ -1,3 +1,7 @@
+---
+icon: '3'
+---
+
 # Customer service in WeChat
 
 https://github.com/zhayujie/chatgpt-on-wechat

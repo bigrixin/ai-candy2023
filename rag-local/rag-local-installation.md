@@ -1,5 +1,6 @@
 ---
 description: Retrieval, Augmented, Generation
+icon: '2'
 ---
 
 # RAG Local installation

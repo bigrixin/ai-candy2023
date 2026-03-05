@@ -1,3 +1,7 @@
+---
+icon: '6'
+---
+
 # Data Cleaning
 
 Data processing for RAG
