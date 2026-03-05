@@ -3,7 +3,9 @@ description: Retrieval, Augmented, Generation
 icon: '2'
 ---
 
-# RAG Local installation
+# Create Local RAG
+
+
 
 {% code fullWidth="true" %}
 ```
