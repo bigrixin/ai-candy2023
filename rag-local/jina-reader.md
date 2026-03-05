@@ -2,7 +2,7 @@
 icon: '4'
 ---
 
-# Jina Reader
+# Jina Reader URL
 
 https://github.com/jina-ai/reader
 
