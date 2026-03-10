@@ -218,6 +218,7 @@
 * [>>>>>>>>>>>>>>>>>>>>>>>>>>>>](greater-than-greater-than-greater-than-greater-than-greater-than-greater-than-greater-than-greater-t.md)
 * [👉 Cool Symbols - 1](coo-symbols.md)
 * [👉 Cool Symbols - 2](cool-symbols-2.md)
+* [👉 Cool Symbols - 3](cool-symbols-3.md)
 * [🪜 Apps and Skills](______________________________.md)
   * [Others](apps-and-skills/others.md)
   * [1️ Windows system app skills](apps-and-skills/windows/README.md)
