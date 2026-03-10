@@ -2,7 +2,7 @@
 description: Unicode symbols, just copy and paste
 ---
 
-# 👉 Cool Symbols -2
+# 👉 Cool Symbols - 2
 
 Smileys & Emotion Emoji Symbols&#x20;
 
