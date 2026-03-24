@@ -50,6 +50,7 @@
     * [Clear database](programming/sql/clear-database.md)
     * [Delete data and reset auto-increment ID](programming/sql/delete-data-and-reset-auto-increment-id.md)
   * [Angular](programming/angular/README.md)
+    * [Solar date to BaZi](programming/angular/solar-date-to-bazi.md)
     * [Clear NuGet cache & rebuild](programming/angular/clear-nuget-cache-and-rebuild.md)
     * [Can not generate component](programming/angular/can-not-generate-component.md)
     * [Angular package.json](programming/angular/angular-package.json.md)
