@@ -18,6 +18,7 @@
 > ​Ohters
 
 * [周易数术](https://steven-zhai.gitbook.io/zhouyi)
+* [古籍](https://commons.wikimedia.org/)
 * [我的 CSDN](https://blog.csdn.net/bigrixin)
 * [IRIS Earthquake Browser](http://ds.iris.edu/ieb/index.html?format=text\&nodata=404\&starttime=1970-01-01\&endtime=2025-01-01\&minmag=0\&maxmag=10\&mindepth=0\&maxdepth=900\&orderby=time-desc\&src=usgs\&limit=1000\&maxlat=-3.629\&minlat=-45.664\&maxlon=163.715\&minlon=103.246\&sbl=1\&pbl=1\&zm=2\&mt=ter)
 * [在线西历日历打印，多尺寸](https://7calendar.com/)
