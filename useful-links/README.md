@@ -18,6 +18,7 @@
 > ​Ohters
 
 * [周易数术](https://steven-zhai.gitbook.io/zhouyi)
+* [古代文献藏书](https://yeuk.github.io/ebook/%E5%8F%A4%E4%BB%A3%E6%96%87%E7%8C%AE%E8%97%8F%E4%B9%A6%20%E6%98%93%E8%97%8F/)
 * [中国哲学书电子化](https://ctext.org/pre-qin-and-han/zhs)
 * [古籍](https://commons.wikimedia.org/)
 * [书阁-网络书籍（PDF）](https://shuge.hanjihebi.com/)
