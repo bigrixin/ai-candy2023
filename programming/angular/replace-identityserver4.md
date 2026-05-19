@@ -1,7 +1,7 @@
-# Auth replace IdentityServer4
+# Replace IdentityServer4
 
 ```
-// Some code
+// replace IdentityServer4
 
 
 <ItemGroup>
@@ -20,4 +20,3 @@
 <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="8.0.8" />
 </ItemGroup>
 ```
-
