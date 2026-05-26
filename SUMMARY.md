@@ -51,6 +51,7 @@
     * [Delete data and reset auto-increment ID](programming/sql/delete-data-and-reset-auto-increment-id.md)
   * [Angular](programming/angular/README.md)
     * [Replace IdentityServer4](programming/angular/replace-identityserver4.md)
+    * [Upper Case and Lower Case](programming/angular/upper-case-and-lower-case.md)
     * [⤵️ Dynamic Download Button](programming/angular/dynamic-download-button.md)
     * [🌛 Solar date to BaZi](programming/angular/solar-date-to-bazi.md)
     * [Clear NuGet cache & rebuild](programming/angular/clear-nuget-cache-and-rebuild.md)
