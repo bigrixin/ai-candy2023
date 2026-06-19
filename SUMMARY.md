@@ -50,7 +50,7 @@
     * [Clear database](programming/sql/clear-database.md)
     * [Delete data and reset auto-increment ID](programming/sql/delete-data-and-reset-auto-increment-id.md)
   * [Angular](programming/angular/README.md)
-    * [Customer hr](programming/angular/customer-hr.md)
+    * [Customer \<hr>](programming/angular/customer-less-than-hr-greater-than.md)
     * [Custom Toastr notification](programming/angular/custom-toastr-notification.md)
     * [Replace IdentityServer4](programming/angular/replace-identityserver4.md)
     * [Upper Case and Lower Case](programming/angular/upper-case-and-lower-case.md)
