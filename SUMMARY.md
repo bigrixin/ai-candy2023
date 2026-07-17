@@ -251,7 +251,7 @@
     * [EndNote V21](apps-and-skills/endnote/endnote-v21.md)
     * [Endnote使用技巧](apps-and-skills/endnote/endnote.md)
     * [批量删除/修改Endnote 中 notes 栏内容](apps-and-skills/endnote/endnote-edit.md)
-  * [8️⃣ Github web page hosting](apps-and-skills/github-web-page-hosting.md)
+  * [8️⃣ GitHub website hosting](apps-and-skills/github-website-hosting.md)
 * [Android mobile connect PC](android-mobile-connect-pc.md)
 * [💎 USEFUL LINKS](useful-links/README.md)
   * [1️ Coding websites](useful-links/coding-websites/README.md)
