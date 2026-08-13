@@ -23,6 +23,14 @@
             this.triggerImportFileDialog();
           }
         },
+        
+        
+      ...(customProps?.extraButtons || [])  // Allow additional buttons to be added dynamically
+      ],
+
+    };
+  };
+
 ```
 
 ```typescript
