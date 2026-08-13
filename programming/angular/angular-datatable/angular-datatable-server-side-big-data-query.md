@@ -2,7 +2,7 @@
 description: 'Get data by paged list: 1. Angular Datatable Server Side Query, 2. .Net Core'
 ---
 
-# Angular DataTable server side big data query
+# 📋 Angular DataTable server side big data query
 
 ├── @types/datatables.net-buttons@1.4.7 \
 ├── @types/datatables.net@1.10.21\

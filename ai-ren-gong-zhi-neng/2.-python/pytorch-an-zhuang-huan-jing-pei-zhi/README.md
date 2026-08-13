@@ -97,7 +97,7 @@ pip3 install torch torchvision torchaudio --extra-index-url https://download.pyt
 {% endhint %}
 
 {% hint style="info" %}
-[<mark style="color:red;">**Run Jupyter lab with GPU**</mark>](#user-content-fn-4)[^4]
+[<mark style="color:red;">**Run Jupyter lab with GPU**</mark>](#user-content-fn-3)[^3]
 
 Method 1: Run Anaconda Navigator, Launch JupyterLab
 
@@ -105,7 +105,7 @@ Method 2: Run Anaconda Prompt (Anaconda3) -- entry command, \
 &#x20;                 then run jupyterlab.bat\
 \
 **jupyterlab.bat:**\
-&#xNAN;_&#x44;:\ProgramData\Anaconda3\python.exe d:\ProgramData\Anaconda3\cwp.py d:\ProgramData\Anaconda3 d:\ProgramData\Anaconda3\python.exe d:\ProgramData\Anaconda3\Scripts\jupyter-lab-script.py "%USERPROFILE%/"_
+_&#x44;:\ProgramData\Anaconda3\python.exe d:\ProgramData\Anaconda3\cwp.py d:\ProgramData\Anaconda3 d:\ProgramData\Anaconda3\python.exe d:\ProgramData\Anaconda3\Scripts\jupyter-lab-script.py "%USERPROFILE%/"_
 {% endhint %}
 
 > **Install pytorch genmetric**\
@@ -150,7 +150,7 @@ if device.type == 'cuda':
 &#x20; \##To create a tensor directly on the device:     \
 &#x20;   torch.rand(10, device=device)
 
-[<mark style="color:blue;">**安装其他包**</mark>](#user-content-fn-5)[^5]
+[<mark style="color:blue;">**安装其他包**</mark>](#user-content-fn-3)[^3]
 
 ```
 // install torch geometric
@@ -163,7 +163,7 @@ if device.type == 'cuda':
 
 
 <pre><code>// install jurpyter in pytorch enveriment
-   <a data-footnote-ref href="#user-content-fn-6">conda list</a>                //check installed parkage
+   <a data-footnote-ref href="#user-content-fn-3">conda list</a>                //check installed parkage
    conda install jupyter
 </code></pre>
 
@@ -182,9 +182,3 @@ Is this model stored on the GPU?	all(p.is_cuda for p in my_model.parameters())
 [^2]: torch cuda version
 
 [^3]: 
-
-[^4]: 
-
-[^5]: 
-
-[^6]: 
