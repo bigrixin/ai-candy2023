@@ -38,6 +38,8 @@
     * [修改Jupyter Notebook 默认工作目录](ai-ren-gong-zhi-neng/2.-python/jupyter-directory.md)
   * [3️⃣ AI Websites](ai-ren-gong-zhi-neng/3.-ai-websites.md)
 * [🍒 Cherry Studio, Ollama and Qwen3](cherry-studio-ollama-and-qwen3.md)
+* [🐋 Docker](docker/README.md)
+  * [Stop all docker containers](docker/stop-all-docker-containers.md)
 * [🧊 RAG Local](rag-local/README.md)
   * [What is RAG ?](rag-local/rag-local-installation/what-is-rag.md)
     * [Three level of RAG](rag-local/what-is-rag/three-level-of-rag.md)
